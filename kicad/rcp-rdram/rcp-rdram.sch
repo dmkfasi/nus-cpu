@@ -1,0 +1,134 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:n64
+EELAYER 25 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RDRAM-PINHEAD CONN_EXP?
+U 1 1 586189EA
+P 4000 8550
+F 0 "CONN_EXP?" H 2450 8400 50  0000 C CNB
+F 1 "RDRAM-PINHEAD" H 5050 8400 50  0000 C CNB
+F 2 "n64:rambus-shp-32" H 3800 8550 20  0001 C CNN
+F 3 "" H 3750 8300 60  0001 C CNN
+	1    4000 8550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RDRAM18-NUS U1
+U 1 1 58618A91
+P 4200 7050
+F 0 "U1" H 2700 6900 50  0000 C CNB
+F 1 "RDRAM18-NUS" H 5450 6900 50  0000 C CNB
+F 2 "n64:rambus-shp-32" H 4200 7050 20  0001 C CNN
+F 3 "" H 4150 6800 60  0001 C CNN
+	1    4200 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L RDRAM18-NUS U2
+U 1 1 58618B94
+P 4200 5950
+F 0 "U2" H 2700 5800 50  0000 C CNB
+F 1 "RDRAM18-NUS" H 5450 5800 50  0000 C CNB
+F 2 "n64:rambus-shp-32" H 4200 5950 20  0001 C CNN
+F 3 "" H 4150 5700 60  0001 C CNN
+	1    4200 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L RDRAM18-NUS U3
+U 1 1 58618BD9
+P 4200 4850
+F 0 "U3" H 2700 4700 50  0000 C CNB
+F 1 "RDRAM18-NUS" H 5450 4700 50  0000 C CNB
+F 2 "n64:rambus-shp-32" H 4200 4850 20  0001 C CNN
+F 3 "" H 4150 4600 60  0001 C CNN
+	1    4200 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L RDRAM18-NUS U4
+U 1 1 58618E37
+P 4200 3750
+F 0 "U4" H 2700 3600 50  0000 C CNB
+F 1 "RDRAM18-NUS" H 5450 3600 50  0000 C CNB
+F 2 "n64:rambus-shp-32" H 4200 3750 20  0001 C CNN
+F 3 "" H 4150 3500 60  0001 C CNN
+	1    4200 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L RESNET RN?
+U 1 1 58619119
+P 1100 7150
+F 0 "RN?" V 850 7150 50  0000 C CNB
+F 1 "RESNET" V 1300 7150 50  0000 C CNB
+F 2 "n64:resnet" H 1100 7250 20  0001 C CNN
+F 3 "" H 1100 7150 60  0001 C CNN
+	1    1100 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L RESNET RN?
+U 1 1 586191B8
+P 1100 6450
+F 0 "RN?" V 850 6450 50  0000 C CNB
+F 1 "RESNET" V 1300 6450 50  0000 C CNB
+F 2 "n64:resnet" H 1100 6550 20  0001 C CNN
+F 3 "" H 1100 6450 60  0001 C CNN
+	1    1100 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L RESNET RN?
+U 1 1 586191FD
+P 1100 5750
+F 0 "RN?" V 850 5750 50  0000 C CNB
+F 1 "RESNET" V 1300 5750 50  0000 C CNB
+F 2 "n64:resnet" H 1100 5850 20  0001 C CNN
+F 3 "" H 1100 5750 60  0001 C CNN
+	1    1100 5750
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
