@@ -1,4 +1,4 @@
-update=Вс 25 дек 2016 18:10:47
+update=Вт 27 дек 2016 00:11:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=n64
+LibName30=Documents/nus-cpu/kicad/n64
