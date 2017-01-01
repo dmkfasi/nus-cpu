@@ -1,4 +1,4 @@
-update=Вт 27 дек 2016 00:11:17
+update=2016 December 31, Saturday 17:26:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,15 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Documents/nus-cpu/kicad/n64
+LibName30=/Users/carbofos/Documents/EE/nus-cpu/kicad/n64
+LibName31=w_analog
+LibName32=w_connectors
+LibName33=w_device
+LibName34=w_logic
+LibName35=w_memory
+LibName36=w_microcontrollers
+LibName37=w_opto
+LibName38=w_relay
+LibName39=w_rtx
+LibName40=w_transistor
+LibName41=w_vacuum
