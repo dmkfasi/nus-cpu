@@ -1,4 +1,4 @@
-(module N64:NINTENDO-64_SHP32 (layer F.Cu) (tedit 585C3CDB)
+(module rambus-shp-32 (layer F.Cu) (tedit 585C3CDB)
   (fp_text reference >Name (at -6.35 -3.175) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
   )
