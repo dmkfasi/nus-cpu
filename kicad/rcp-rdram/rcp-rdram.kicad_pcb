@@ -3,7 +3,7 @@
   (general
     (links 199)
     (no_connects 0)
-    (area 91.045714 75.715 150.254286 133.510001)
+    (area 101.449999 76.049999 138.580001 130.960001)
     (thickness 1.6)
     (drawings 14)
     (tracks 478)
@@ -157,7 +157,7 @@
   )
 
   (net_class Power ""
-    (clearance 0.1)
+    (clearance 0.15)
     (trace_width 0.37)
     (via_dia 0.6)
     (via_drill 0.4)
