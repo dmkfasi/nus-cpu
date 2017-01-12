@@ -3,7 +3,7 @@
   (general
     (links 423)
     (no_connects 298)
-    (area 39.906483 35.187 194.129667 137.922001)
+    (area 55.421509 35.835 165.100001 108.989783)
     (thickness 1.6)
     (drawings 2)
     (tracks 0)
@@ -348,7 +348,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768314)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56B90E9F)
@@ -381,7 +381,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876831A)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56B90F67)
@@ -414,7 +414,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768320)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56B9102F)
@@ -447,7 +447,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768326)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56B910F7)
@@ -480,7 +480,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876832C)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /56B911BF)
@@ -513,7 +513,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768332)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58786075/58787A15)
@@ -546,7 +546,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768338)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58786075/58787A3E)
@@ -579,7 +579,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876833E)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E6B)
@@ -612,7 +612,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768344)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5877ADD0)
@@ -645,7 +645,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876834A)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5877A945)
@@ -678,7 +678,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768350)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5877A9E0)
@@ -711,7 +711,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768356)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5877AA7B)
@@ -744,7 +744,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876835C)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5877AB17)
@@ -777,7 +777,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768362)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5877AC4D)
@@ -810,7 +810,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768368)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E64)
@@ -843,7 +843,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876836E)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E5D)
@@ -876,7 +876,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768374)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E56)
@@ -909,7 +909,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876837A)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E4F)
@@ -942,7 +942,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768380)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E48)
@@ -975,7 +975,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768386)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E41)
@@ -1008,7 +1008,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876838C)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E3A)
@@ -1041,7 +1041,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768392)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E33)
@@ -1074,7 +1074,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768398)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E2C)
@@ -1107,7 +1107,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876839E)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E25)
@@ -1140,7 +1140,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683A4)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E1E)
@@ -1173,7 +1173,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683AA)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E17)
@@ -1206,7 +1206,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683B0)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E10)
@@ -1239,7 +1239,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683B6)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E09)
@@ -1272,7 +1272,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683BC)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773E02)
@@ -1305,7 +1305,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683C2)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773DFB)
@@ -1338,7 +1338,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683C8)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773DF4)
@@ -1371,7 +1371,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683CE)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773DED)
@@ -1404,7 +1404,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683D4)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773DE6)
@@ -1437,7 +1437,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683DA)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/58773DDF)
@@ -1470,7 +1470,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x05 (layer F.Cu) (tedit 54EA0684) (tstamp 587683E3)
-    (at 183.896 96.012)
+    (at 156.21 91.44)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /5858D8FA)
@@ -1509,7 +1509,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683E9)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEEB)
@@ -1542,7 +1542,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683EF)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EF0F)
@@ -1575,7 +1575,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683F5)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEF1)
@@ -1608,7 +1608,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 587683FB)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEF7)
@@ -1641,7 +1641,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768401)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEFD)
@@ -1674,7 +1674,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768407)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EF03)
@@ -1707,7 +1707,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876840D)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EF09)
@@ -1740,7 +1740,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768413)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEE5)
@@ -1773,7 +1773,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768419)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEDF)
@@ -1806,7 +1806,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876841F)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EED9)
@@ -1839,7 +1839,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768425)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EED3)
@@ -1872,7 +1872,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876842B)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EECD)
@@ -1905,7 +1905,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768431)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEC7)
@@ -1938,7 +1938,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768437)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEC1)
@@ -1971,7 +1971,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876843D)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEBB)
@@ -2004,7 +2004,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768443)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEB5)
@@ -2037,7 +2037,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768449)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEAF)
@@ -2070,7 +2070,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876844F)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEA9)
@@ -2103,7 +2103,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768455)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EEA3)
@@ -2136,7 +2136,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876845B)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EE9D)
@@ -2169,7 +2169,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768461)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EE97)
@@ -2202,7 +2202,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768467)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EE91)
@@ -2235,7 +2235,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876846D)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EE8B)
@@ -2268,7 +2268,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768473)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EE85)
@@ -2301,7 +2301,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768479)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EE7F)
@@ -2334,7 +2334,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876847F)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EE79)
@@ -2367,7 +2367,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768485)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878EE73)
@@ -2400,7 +2400,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 5876848B)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878F942)
@@ -2433,7 +2433,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768491)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878F9FC)
@@ -2466,7 +2466,7 @@
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5415D6EA) (tstamp 58768497)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /58771482/5878FAB9)
@@ -2499,7 +2499,7 @@
   )
 
   (module n64:rdram-edge (layer F.Cu) (tedit 5867C63E) (tstamp 587684CB)
-    (at 134.239 94.107)
+    (at 117.474938 91.694)
     (path /5868365E)
     (fp_text reference P1 (at 17.018 4.953) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2590,7 +2590,7 @@
   )
 
   (module n64:cart-edge-2x25-2.54mm (layer F.Cu) (tedit 5867C4C6) (tstamp 58768501)
-    (at 94.107 41.275)
+    (at 78.104938 42.037)
     (descr "50 pins through hole IDC header")
     (tags "IDC header socket VASCH")
     (path /5857652D)
@@ -2753,7 +2753,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x10 (layer F.Cu) (tedit 0) (tstamp 5876850F)
-    (at 181.102 59.817)
+    (at 156.21 59.69)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /585A77D3)
@@ -2802,7 +2802,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58307B54) (tstamp 58768515)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /58786075/587887BC)
@@ -2835,7 +2835,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58307B54) (tstamp 5876851B)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /58786075/58788800)
@@ -2868,7 +2868,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58307B54) (tstamp 58768521)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56B9AA7B)
@@ -2901,7 +2901,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58307B54) (tstamp 58768527)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56B9AC0B)
@@ -2934,7 +2934,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58307B54) (tstamp 5876852D)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56B9ACD3)
@@ -2967,7 +2967,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58307B54) (tstamp 58768533)
-    (at 148.5011 105.0036)
+    (at 72.936038 96.2406)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /56B9AF2B)
@@ -3000,7 +3000,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 5876853B)
-    (at 176.657 95.631)
+    (at 153.67 41.91)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /58589244)
@@ -3037,12 +3037,12 @@
   )
 
   (module n64:so-08 (layer F.Cu) (tedit 585C3E73) (tstamp 58768547)
-    (at 164.211062 101.666937)
+    (at 146.05 99.253937 90)
     (path /58786075/58786715)
-    (fp_text reference U7 (at -3.937 -4.445 180) (layer F.SilkS)
+    (fp_text reference U7 (at -3.937 -4.445 270) (layer F.SilkS)
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
-    (fp_text value MX8330 (at -3.81 5.715) (layer F.SilkS)
+    (fp_text value MX8330 (at -3.81 5.715 90) (layer F.SilkS)
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
     (fp_arc (start -2.413 0) (end -2.413 -0.381) (angle 180) (layer F.SilkS) (width 0.15))
@@ -3058,26 +3058,26 @@
     (fp_poly (pts (xy 0.3899 -2) (xy 0.8801 -2) (xy 0.8801 -3.1001) (xy 0.3899 -3.1001)) (layer Dwgs.User) (width 0))
     (fp_poly (pts (xy -0.8801 -2) (xy -0.3899 -2) (xy -0.3899 -3.1001) (xy -0.8801 -3.1001)) (layer Dwgs.User) (width 0))
     (fp_poly (pts (xy -2.1501 -2) (xy -1.6599 -2) (xy -1.6599 -3.1001) (xy -2.1501 -3.1001)) (layer Dwgs.User) (width 0))
-    (pad 1 smd rect (at -1.905063 2.600063) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -1.905063 2.600063 90) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
       (net 11 VCLK))
-    (pad 2 smd rect (at -0.635063 2.600063) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -0.635063 2.600063 90) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
       (net 6 GND))
-    (pad 3 smd rect (at 0.634938 2.600063) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at 0.634938 2.600063 90) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
       (net 68 "Net-(U7-Pad3)"))
-    (pad 4 smd rect (at 1.904938 2.600063) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at 1.904938 2.600063 90) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
       (net 8 +3.3V))
-    (pad 5 smd rect (at 1.904938 -2.599938) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 1.904938 -2.599938 90) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C39-Pad1)"))
-    (pad 6 smd rect (at 0.634938 -2.599938) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at 0.634938 -2.599938 90) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(C40-Pad1)"))
-    (pad 7 smd rect (at -0.635063 -2.599938) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 7 smd rect (at -0.635063 -2.599938 90) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
       (net 13 PGOOD))
-    (pad 8 smd rect (at -1.905063 -2.599938) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
+    (pad 8 smd rect (at -1.905063 -2.599938 90) (size 0.6 2.2) (layers F.Cu F.Paste F.Mask)
       (net 63 "Net-(R12-Pad1)"))
   )
 
   (module n64:rcp-nus-qfp-160 (layer F.Cu) (tedit 585DA23A) (tstamp 587685EB)
-    (at 143.51 71.4248 270)
+    (at 124.840938 71.247 270)
     (descr "Module CMS Pqfp 160 pins")
     (tags "CMS PQFP")
     (path /56B9E2BB)
@@ -3425,7 +3425,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x09 (layer F.Cu) (tedit 0) (tstamp 58768674)
-    (at 173.99 62.23)
+    (at 150.494938 59.817)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /58582CAB)
@@ -3472,7 +3472,7 @@
   )
 
   (module Crystals:HC-49V (layer F.Cu) (tedit 56D4D4E4) (tstamp 58768682)
-    (at 164.465 91.059)
+    (at 142.874938 90.297)
     (descr "Quartz boitier HC-49 Vertical")
     (tags "QUARTZ DEV")
     (path /58786075/58786E3E)
@@ -3502,7 +3502,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x03 (layer F.Cu) (tedit 54EA0A4B) (tstamp 58768CF4)
-    (at 80.137 41.656)
+    (at 66.674938 42.037)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /58771482/587729BF)
@@ -3545,7 +3545,7 @@
   )
 
   (module n64:cpu-nus-qfp-120 (layer F.Cu) (tedit 5875E6C2) (tstamp 58774221)
-    (at 102.346697 70.975589)
+    (at 85.724938 69.977)
     (descr "QFP-120 0.8mm pitch")
     (path /56B9E383)
     (clearance 0.2)
@@ -3836,7 +3836,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x02 (layer F.Cu) (tedit 0) (tstamp 5877453C)
-    (at 161.544 42.037)
+    (at 145.414938 42.037)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /585A662B)
@@ -3873,29 +3873,29 @@
     )
   )
 
-  (dimension 88.011367 (width 0.3) (layer Dwgs.User)
-    (gr_text "88.011 mm" (at 73.531992 80.776252 270.1653553) (layer Dwgs.User)
+  (dimension 71.12 (width 0.3) (layer Dwgs.User)
+    (gr_text "71,120 mm" (at 61.921508 73.429782 270) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
-    (feature1 (pts (xy 84.40251 124.750746) (xy 72.308998 124.785648)))
-    (feature2 (pts (xy 84.14851 36.739746) (xy 72.054998 36.774648)))
-    (crossbar (pts (xy 74.754987 36.766856) (xy 75.008987 124.777856)))
-    (arrow1a (pts (xy 75.008987 124.777856) (xy 74.419318 123.653049)))
-    (arrow1b (pts (xy 75.008987 124.777856) (xy 75.592154 123.649665)))
-    (arrow2a (pts (xy 74.754987 36.766856) (xy 74.17182 37.895047)))
-    (arrow2b (pts (xy 74.754987 36.766856) (xy 75.344656 37.891663)))
+    (feature1 (pts (xy 72.66507 108.989782) (xy 60.571508 108.989782)))
+    (feature2 (pts (xy 72.66507 37.869782) (xy 60.571508 37.869782)))
+    (crossbar (pts (xy 63.271508 37.869782) (xy 63.271508 108.989782)))
+    (arrow1a (pts (xy 63.271508 108.989782) (xy 62.685087 107.863278)))
+    (arrow1b (pts (xy 63.271508 108.989782) (xy 63.857929 107.863278)))
+    (arrow2a (pts (xy 63.271508 37.869782) (xy 62.685087 38.996286)))
+    (arrow2b (pts (xy 63.271508 37.869782) (xy 63.857929 38.996286)))
   )
-  (dimension 119.129317 (width 0.3) (layer Dwgs.User)
-    (gr_text "119.129 mm" (at 134.556591 128.956228 359.5724275) (layer Dwgs.User)
+  (dimension 101.6 (width 0.3) (layer Dwgs.User)
+    (gr_text "101,600 mm" (at 114.3 106.150801) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
-    (feature1 (pts (xy 194.056 137.922) (xy 194.129666 128.050766)))
-    (feature2 (pts (xy 74.93 137.033) (xy 75.003666 127.161766)))
-    (crossbar (pts (xy 74.983517 129.861691) (xy 194.109517 130.750691)))
-    (arrow1a (pts (xy 194.109517 130.750691) (xy 192.978668 131.328689)))
-    (arrow1b (pts (xy 194.109517 130.750691) (xy 192.987421 130.15588)))
-    (arrow2a (pts (xy 74.983517 129.861691) (xy 76.105613 130.456502)))
-    (arrow2b (pts (xy 74.983517 129.861691) (xy 76.114366 129.283693)))
+    (feature1 (pts (xy 63.5 97.629293) (xy 63.5 107.500801)))
+    (feature2 (pts (xy 165.1 97.629293) (xy 165.1 107.500801)))
+    (crossbar (pts (xy 165.1 104.800801) (xy 63.5 104.800801)))
+    (arrow1a (pts (xy 63.5 104.800801) (xy 64.626504 104.21438)))
+    (arrow1b (pts (xy 63.5 104.800801) (xy 64.626504 105.387222)))
+    (arrow2a (pts (xy 165.1 104.800801) (xy 163.973496 104.21438)))
+    (arrow2b (pts (xy 165.1 104.800801) (xy 163.973496 105.387222)))
   )
 
 )
