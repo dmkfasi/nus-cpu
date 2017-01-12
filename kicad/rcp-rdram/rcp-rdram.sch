@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:n64
-LIBS:rcp-rdram-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 8268 11693 portrait
@@ -433,7 +432,7 @@ U 1 1 587191B9
 P 2500 7150
 F 0 "X2" H 2500 7050 50  0000 C CNB
 F 1 "14.705MHz" H 2500 7300 50  0000 C CNB
-F 2 "Crystals:Crystal_HC49-U_Vertical" H 2500 7150 50  0001 C CNN
+F 2 "Crystals:HC-49V" H 2500 7150 50  0001 C CNN
 F 3 "" H 2500 7150 50  0000 C CNN
 	1    2500 7150
 	1    0    0    -1  
