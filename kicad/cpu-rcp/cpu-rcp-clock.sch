@@ -29,18 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:n64
-LIBS:w_analog
-LIBS:w_connectors
-LIBS:w_device
-LIBS:w_logic
-LIBS:w_memory
-LIBS:w_microcontrollers
-LIBS:w_opto
-LIBS:w_relay
-LIBS:w_rtx
-LIBS:w_transistor
-LIBS:w_vacuum
-LIBS:cpu-rcp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -67,10 +55,10 @@ F 3 "" H 4200 3750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND #PWR022
 U 1 1 58786988
 P 3750 4450
-F 0 "#PWR017" H 3750 4450 30  0001 C CNN
+F 0 "#PWR022" H 3750 4450 30  0001 C CNN
 F 1 "GND" H 3750 4380 30  0001 C CNN
 F 2 "" H 3750 4450 60  0001 C CNN
 F 3 "" H 3750 4450 60  0001 C CNN
@@ -182,10 +170,10 @@ Wire Wire Line
 Text Notes 6350 3450 0    60   ~ 12
 To U5 ENC-NUS
 $Comp
-L +3.3V #PWR018
+L +3.3V #PWR023
 U 1 1 5878A373
 P 3650 3250
-F 0 "#PWR018" H 3650 3210 30  0001 C CNN
+F 0 "#PWR023" H 3650 3210 30  0001 C CNN
 F 1 "+3.3V" H 3650 3360 30  0000 C CNN
 F 2 "" H 3650 3250 60  0001 C CNN
 F 3 "" H 3650 3250 60  0001 C CNN
