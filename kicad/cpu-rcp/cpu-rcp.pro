@@ -1,4 +1,4 @@
-update=четверг, 12 января 2017 'г'., 16:57:44
+update=2017 January 13, Friday 22:37:08
 version=1
 last_client=kicad
 [general]
@@ -61,3 +61,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/carbofos/Documents/nus-cpu/kicad/n64
+LibName31=/Users/carbofos/Documents/EE/nus-cpu/kicad/n64
