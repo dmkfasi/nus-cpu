@@ -968,7 +968,7 @@
       (net 4 "Net-(C147-Pad1)"))
     (pad 2 thru_hole circle (at 2.44094 0 180) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask)
       (net 3 "Net-(C146-Pad1)"))
-    (model Crystals.3dshapes/HC-49V.wrl
+    (model walter/crystal/crystal_hc-49s.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
