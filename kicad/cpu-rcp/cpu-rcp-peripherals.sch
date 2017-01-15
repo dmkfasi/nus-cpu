@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:n64
-LIBS:cpu-rcp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -234,8 +233,6 @@ Text Label 1350 2100 1    20   ~ 0
 CART_ADDR14
 Text Label 1250 2100 1    20   ~ 0
 CART_ADDR15
-Text Label 2950 2800 1    39   ~ 0
-/COLDRESET
 Text Label 5850 2800 1    39   ~ 0
 AUDIO_OUT_R
 Text Label 3350 2800 1    39   ~ 0
@@ -323,9 +320,9 @@ F 3 "" H 2200 4400 60  0001 C CNN
 	1    2200 4400
 	1    0    0    -1  
 $EndComp
-Text GLabel 2100 4300 0    60   BiDi ~ 0
+Text GLabel 2100 4300 0    60   Input ~ 0
 VCLK
-Text GLabel 2100 3900 0    60   Output ~ 0
+Text GLabel 2100 3900 0    60   Input ~ 0
 SCIN
 $Comp
 L GND #PWR024
@@ -384,11 +381,11 @@ F 3 "" H 9200 4650 50  0000 C CNN
 	1    9200 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 8150 4050 0    60   Input ~ 0
+Text GLabel 8050 4050 0    60   Input ~ 0
 LRCLK
-Text GLabel 8150 4250 0    60   Input ~ 0
+Text GLabel 8050 4250 0    60   Input ~ 0
 SDAT
-Text GLabel 8150 4450 0    60   Input ~ 0
+Text GLabel 8050 4450 0    60   Input ~ 0
 BCLK
 Text GLabel 1250 2100 3    60   BiDi ~ 0
 CART_ADDR15
@@ -638,7 +635,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 2100 4650 1600
 Wire Wire Line
-	2950 2800 2950 1600
+	2950 2150 2950 1600
 Wire Wire Line
 	2850 2800 2850 1600
 Wire Wire Line
@@ -735,4 +732,24 @@ Wire Wire Line
 Wire Wire Line
 	8050 1950 8050 2300
 Connection ~ 8050 2200
+Text Notes 2000 700  0    60   ~ 0
+23 signal wires: 20+3
+Text Notes 3300 700  0    60   ~ 0
+4 PIF wires
+Text GLabel 2950 2150 3    60   BiDi ~ 0
+/COLDRESET
+Wire Wire Line
+	8150 4050 8050 4050
+Wire Wire Line
+	8050 4250 8150 4250
+Wire Wire Line
+	8150 4450 8050 4450
+Text Notes 4400 700  0    60   ~ 0
+1 video wire
+Text Notes 5400 700  0    60   ~ 0
+2 audio wires
+Text Notes 2000 800  0    60   ~ 0
+12 GND wires
+Text Notes 2700 800  0    60   ~ 0
+4 VDD wires
 $EndSCHEMATC
