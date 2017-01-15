@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:n64
+LIBS:cpu-rcp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1448,11 +1449,11 @@ CART_ADDR00
 Text GLabel 10450 1400 1    60   BiDi ~ 0
 CART_ADDR15
 Text GLabel 13250 6000 2    60   BiDi ~ 0
-PIF_DAT_CLK
+PIF_CLK
 Text GLabel 13250 6100 2    60   BiDi ~ 0
-PIF_ADDR_OUT
+PIF_ADR
 Text GLabel 13250 6200 2    60   BiDi ~ 0
-PIF_DAT_IN
+PIF_DAT
 Wire Wire Line
 	12750 5900 13150 5900
 Wire Wire Line
