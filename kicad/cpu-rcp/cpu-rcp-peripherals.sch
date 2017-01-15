@@ -748,8 +748,8 @@ Text Notes 4400 700  0    60   ~ 0
 1 video wire
 Text Notes 5400 700  0    60   ~ 0
 2 audio wires
-Text Notes 2000 800  0    60   ~ 0
+Text Notes 3800 800  0    60   ~ 0
 12 GND wires
-Text Notes 2700 800  0    60   ~ 0
+Text Notes 4950 800  0    60   ~ 0
 4 VDD wires
 $EndSCHEMATC
