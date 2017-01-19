@@ -1,4 +1,4 @@
-update=2017 January 18, Wednesday 22:00:02
+update=2017 January 19, Thursday 23:39:01
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,7 +43,7 @@ LibName30=n64
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=rcp-rdram.net
 PadDrill=0.7999999999999999
 PadDrillOvalY=0.7999999999999999
 PadSizeH=1.5
