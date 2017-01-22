@@ -1,5 +1,5 @@
 (module cay16-510-j4 (layer F.Cu) (tedit 587FC4B2)
-  (descr "Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)")
+  (descr "Thick Film Chip Resistor Array, BOURNCE cay16-j4")
   (tags "resistor array")
   (attr smd)
   (fp_text reference RA1 (at 0 -3) (layer F.SilkS)
