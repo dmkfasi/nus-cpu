@@ -1,6 +1,6 @@
 (module cart-edge-2x25-2.54mm (layer F.Cu) (tedit 5884E868)
-  (descr "50 pins through hole IDC header")
-  (tags "IDC header socket VASCH")
+  (descr "Original Nintendo 64 Cartridge pinout")
+  (tags CartEdge)
   (fp_text reference REF** (at -7.35 -8.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
