@@ -1,4 +1,4 @@
-update=2017 January 13, Friday 22:37:08
+update=2017 January 31, Tuesday 20:03:32
 version=1
 last_client=kicad
 [general]
@@ -62,3 +62,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=/Users/carbofos/Documents/nus-cpu/kicad/n64
 LibName31=/Users/carbofos/Documents/EE/nus-cpu/kicad/n64
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
