@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "CPU/RCP"
 Date "01/12/2016"
 Rev "4"
@@ -1497,4 +1497,10 @@ F 3 "" H 2300 1650 50  0000 C CNN
 $EndComp
 Text Notes 6000 6250 0    60   ~ 12
 PLL configuraion
+$Sheet
+S 3750 10150 1300 750 
+U 5890DD16
+F0 "External connections" 60
+F1 "cpu-rcp-connectors.sch" 60
+$EndSheet
 $EndSCHEMATC
