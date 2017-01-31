@@ -1353,7 +1353,7 @@ F0 "Power rails" 60
 F1 "cpu-rcp-power.sch" 60
 $EndSheet
 Text GLabel 12400 8000 2    60   Input ~ 0
-PGOOD
+ENABLE
 Text GLabel 12450 7500 2    60   Input ~ 0
 VTERM
 $Comp
