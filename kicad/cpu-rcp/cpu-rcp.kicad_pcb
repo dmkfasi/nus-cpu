@@ -3991,7 +3991,7 @@
       (net 82 /Peripherals/ROUT))
     (pad 0 smd rect (at -2.3 2.2 90) (size 2 1.3) (layers F.Cu F.Paste F.Mask))
     (pad 0 smd rect (at 3.8 2.2 90) (size 2 1.3) (layers F.Cu F.Paste F.Mask))
-    (model /Users/carbofos/Downloads/molex-505110-0492.wrl
+    (model /Users/carbofos/Documents/nus-cpu/kicad/packages3d/molex-505110-0492.wrl
       (at (xyz 0.03 -0.02 0))
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz -90 0 0))
@@ -4271,6 +4271,11 @@
     (pad 0 smd rect (at 4.3 2.2 90) (size 2 1.3) (layers F.Cu F.Paste F.Mask))
     (pad 5 smd rect (at 2 -0.5 90) (size 0.3 1) (layers F.Cu F.Paste F.Mask)
       (net 127 "Net-(R28-Pad2)"))
+    (model /Users/carbofos/Documents/nus-cpu/kicad/packages3d/molex-505110-0592.wrl
+      (at (xyz 0.04 -0.02 0))
+      (scale (xyz 0.395 0.395 0.395))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (dimension 28.220067 (width 0.3) (layer Dwgs.User)
