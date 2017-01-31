@@ -292,29 +292,7 @@ Wire Notes Line
 Wire Wire Line
 	5950 1800 5950 1600
 Wire Wire Line
-	800  1800 1050 1800
-Wire Wire Line
-	1050 1800 1150 1800
-Wire Wire Line
-	1150 1800 1550 1800
-Wire Wire Line
-	1550 1800 3150 1800
-Wire Wire Line
-	3150 1800 3250 1800
-Wire Wire Line
-	3250 1800 3450 1800
-Wire Wire Line
-	3450 1800 3550 1800
-Wire Wire Line
-	3550 1800 3650 1800
-Wire Wire Line
-	3650 1800 4050 1800
-Wire Wire Line
-	4050 1800 5650 1800
-Wire Wire Line
-	5650 1800 5750 1800
-Wire Wire Line
-	5750 1800 5950 1800
+	800  1800 5950 1800
 Wire Wire Line
 	800  1800 800  1950
 Wire Wire Line
@@ -353,13 +331,7 @@ Connection ~ 5750 1800
 Wire Wire Line
 	5150 1700 5150 1600
 Wire Wire Line
-	800  1700 1850 1700
-Wire Wire Line
-	1850 1700 2650 1700
-Wire Wire Line
-	2650 1700 4350 1700
-Wire Wire Line
-	4350 1700 5150 1700
+	800  1700 5150 1700
 Wire Wire Line
 	800  1700 800  1400
 Wire Wire Line
@@ -434,9 +406,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 5350 2150 5350
 Wire Wire Line
-	2050 5050 2050 5250
-Wire Wire Line
-	2050 5250 2050 5450
+	2050 5050 2050 5450
 Wire Wire Line
 	1600 4950 2150 4950
 Wire Wire Line
