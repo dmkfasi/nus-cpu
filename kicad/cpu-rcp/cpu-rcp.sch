@@ -158,24 +158,6 @@ Text Label 1650 5600 2    20   ~ 0
 /INT2
 Text Label 5250 3600 0    20   ~ 0
 3V3
-Text Label 8850 7300 3    20   ~ 0
-DQ0
-Text Label 9050 7300 3    20   ~ 0
-DQ1
-Text Label 9250 7300 3    20   ~ 0
-DQ2
-Text Label 9450 7300 3    20   ~ 0
-DQ3
-Text Label 10050 7300 3    20   ~ 0
-DQ4
-Text Label 11050 7300 3    20   ~ 0
-DQ5
-Text Label 11250 7300 3    20   ~ 0
-DQ6
-Text Label 11650 7300 3    20   ~ 0
-DQ7
-Text Label 11850 7300 3    20   ~ 0
-DQ8
 Text Label 5250 4200 0    20   ~ 0
 GND
 Text Label 5250 3900 0    20   ~ 0
@@ -232,16 +214,6 @@ Text Label 13350 3400 2    20   ~ 0
 CART_ADDR07
 Text Label 13350 2500 2    20   ~ 0
 CART_ADDR11
-Text Label 9650 7300 3    20   ~ 0
-VREF
-Text Label 9850 7300 3    20   ~ 0
-CMD
-Text Label 10250 7350 1    20   ~ 0
-TXCLK
-Text Label 10750 7350 1    20   ~ 0
-RXCLK
-Text Label 11450 7300 3    20   ~ 0
-ADDR
 Text Label 9650 1400 3    20   ~ 0
 SYSAD0
 Text Label 1150 4100 0    20   ~ 0
@@ -406,21 +378,10 @@ F 3 "" H 6250 5300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR01
-U 1 1 585F1DC6
-P 11950 9100
-F 0 "#PWR01" H 11950 8950 50  0001 C CNN
-F 1 "+3.3V" H 11950 9240 50  0000 C CNN
-F 2 "" H 11950 9100 50  0000 C CNN
-F 3 "" H 11950 9100 50  0000 C CNN
-	1    11950 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR02
+L +3V3 #PWR01
 U 1 1 585F2DD2
 P 7550 1600
-F 0 "#PWR02" H 7550 1450 50  0001 C CNN
+F 0 "#PWR01" H 7550 1450 50  0001 C CNN
 F 1 "+3V3" H 7550 1740 50  0000 C CNN
 F 2 "" H 7550 1600 50  0000 C CNN
 F 3 "" H 7550 1600 50  0000 C CNN
@@ -428,10 +389,10 @@ F 3 "" H 7550 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR03
+L +3.3V #PWR02
 U 1 1 585F6618
 P 1450 2250
-F 0 "#PWR03" H 1450 2100 50  0001 C CNN
+F 0 "#PWR02" H 1450 2100 50  0001 C CNN
 F 1 "+3.3V" H 1450 2390 50  0000 C CNN
 F 2 "" H 1450 2250 50  0000 C CNN
 F 3 "" H 1450 2250 50  0000 C CNN
@@ -439,21 +400,10 @@ F 3 "" H 1450 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RDRAM-EDGE P1
-U 1 1 5868365E
-P 10350 8600
-F 0 "P1" H 11650 8600 50  0000 C CNB
-F 1 "RDRAM-EDGE" H 9050 8600 50  0000 C CNB
-F 2 "n64:rdram-edge" H 10350 8600 20  0001 C CNN
-F 3 "" H 10400 8450 60  0001 C CNN
-	1    10350 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR04
+L GND #PWR03
 U 1 1 586C0DAB
 P 1350 6450
-F 0 "#PWR04" H 1350 6450 30  0001 C CNN
+F 0 "#PWR03" H 1350 6450 30  0001 C CNN
 F 1 "GND" H 1350 6380 30  0001 C CNN
 F 2 "" H 1350 6450 60  0001 C CNN
 F 3 "" H 1350 6450 60  0001 C CNN
@@ -886,11 +836,11 @@ Wire Wire Line
 Wire Wire Line
 	12050 7500 12150 7500
 Wire Wire Line
-	12750 6000 13250 6000
+	12750 6000 13350 6000
 Wire Wire Line
-	12750 6100 13250 6100
+	12750 6100 13350 6100
 Wire Wire Line
-	12750 6200 13250 6200
+	12750 6200 13350 6200
 Wire Wire Line
 	3300 6150 3300 6750
 Wire Wire Line
@@ -927,11 +877,11 @@ Wire Wire Line
 Wire Wire Line
 	5550 3800 5250 3800
 Wire Wire Line
-	12750 4500 13600 4500
+	12750 4500 13350 4500
 Wire Wire Line
-	12750 4600 13600 4600
+	12750 4600 13350 4600
 Wire Wire Line
-	12750 4700 13600 4700
+	12750 4700 13350 4700
 Wire Wire Line
 	12750 5000 13050 5000
 Wire Wire Line
@@ -954,148 +904,56 @@ Wire Wire Line
 Wire Wire Line
 	13150 4100 13150 4300
 Wire Wire Line
-	13150 4300 13600 4300
+	13150 4300 13350 4300
 Wire Wire Line
 	12750 4200 13050 4200
 Wire Wire Line
 	13050 4200 13050 4400
 Wire Wire Line
-	13050 4400 13600 4400
+	13050 4400 13350 4400
 Wire Wire Line
 	13050 5000 13050 4800
 Wire Wire Line
-	13050 4800 13600 4800
+	13050 4800 13350 4800
 Wire Wire Line
 	13150 5100 13150 4900
 Wire Wire Line
-	13150 4900 13600 4900
+	13150 4900 13350 4900
 Wire Wire Line
-	8850 7000 8850 8100
+	8850 7000 8850 7500
 Wire Wire Line
-	9050 7000 9050 8100
+	9050 7000 9050 7500
 Wire Wire Line
-	9250 7000 9250 8100
+	9250 7000 9250 7500
 Wire Wire Line
-	9450 7000 9450 8100
+	9450 7000 9450 7500
 Wire Wire Line
-	9650 7000 9650 8100
+	10050 7000 10050 7500
 Wire Wire Line
-	10050 7000 10050 8100
+	10550 7000 10550 7500
 Wire Wire Line
-	10550 7000 10550 7300
-Wire Wire Line
-	10750 7000 10750 7400
+	10750 7000 10750 7500
 Wire Wire Line
 	11050 7000 11050 7500
 Wire Wire Line
-	11250 7000 11250 7600
+	11250 7000 11250 7500
 Wire Wire Line
-	11450 7000 11450 7700
+	11450 7000 11450 7500
 Wire Wire Line
-	11650 7000 11650 7800
+	11650 7000 11650 7500
 Wire Wire Line
-	11850 7000 11850 7900
+	11850 7000 11850 7500
 Wire Wire Line
-	9850 7000 9850 8100
-Wire Wire Line
-	10250 8100 10250 7300
-Wire Wire Line
-	10250 7300 10550 7300
-Wire Wire Line
-	10450 8100 10450 7400
-Wire Wire Line
-	10450 7400 10750 7400
-Wire Wire Line
-	10650 8100 10650 7500
-Wire Wire Line
-	10650 7500 11050 7500
-Wire Wire Line
-	10850 8100 10850 7600
-Wire Wire Line
-	10850 7600 11250 7600
-Wire Wire Line
-	11050 8100 11050 7700
-Wire Wire Line
-	11050 7700 11450 7700
-Wire Wire Line
-	11250 8100 11250 7800
-Wire Wire Line
-	11250 7800 11650 7800
-Wire Wire Line
-	11450 8100 11450 7900
-Wire Wire Line
-	11450 7900 11850 7900
+	9850 7000 9850 7500
 Wire Wire Line
 	12850 3600 12750 3600
-Wire Wire Line
-	12400 8000 11650 8000
-Wire Wire Line
-	11650 8000 11650 8100
-Wire Wire Line
-	8850 9100 8850 9200
-Wire Wire Line
-	8750 9200 9050 9200
-Wire Wire Line
-	9050 9200 9050 9100
-Connection ~ 8850 9200
-Wire Wire Line
-	9650 9100 9650 9200
-Wire Wire Line
-	9650 9200 9550 9200
-Wire Wire Line
-	9550 9200 9550 8000
-Wire Wire Line
-	9550 8000 9650 8000
-Connection ~ 9650 8000
-Wire Wire Line
-	11650 9200 11650 9100
-Wire Wire Line
-	9850 9200 11950 9200
-Wire Wire Line
-	11950 9200 11950 9100
-Wire Wire Line
-	11450 9100 11450 9200
-Connection ~ 11650 9200
-Wire Wire Line
-	10850 9100 10850 9200
-Connection ~ 11450 9200
-Wire Wire Line
-	10650 9100 10650 9200
-Connection ~ 10850 9200
-Wire Wire Line
-	10050 9100 10050 9200
-Connection ~ 10650 9200
-Wire Wire Line
-	9850 9100 9850 9200
-Connection ~ 10050 9200
-Wire Wire Line
-	11250 9300 11250 9100
-Wire Wire Line
-	9250 9300 11950 9300
-Wire Wire Line
-	11950 9300 11950 9400
-Wire Wire Line
-	11050 9100 11050 9300
-Connection ~ 11250 9300
-Wire Wire Line
-	10450 9100 10450 9300
-Connection ~ 11050 9300
-Wire Wire Line
-	10250 9100 10250 9300
-Connection ~ 10450 9300
-Wire Wire Line
-	9450 9100 9450 9300
-Connection ~ 10250 9300
-Wire Wire Line
-	9250 9100 9250 9300
-Connection ~ 9450 9300
 Connection ~ 7550 1800
 Wire Wire Line
 	12750 4000 13250 4000
 Wire Wire Line
 	13250 4000 13250 4200
 Wire Wire Line
-	13250 4200 13600 4200
+	13250 4200 13350 4200
 Wire Wire Line
 	8250 1400 8250 1900
 Wire Wire Line
@@ -1336,7 +1194,7 @@ Text Label 10050 1400 3    20   ~ 0
 Text Label 10250 1400 3    20   ~ 0
 /EOK
 Wire Wire Line
-	12750 5400 13650 5400
+	12750 5400 13350 5400
 Wire Wire Line
 	5850 6100 5750 6100
 Wire Wire Line
@@ -1352,35 +1210,20 @@ U 58771482
 F0 "Power rails" 60
 F1 "cpu-rcp-power.sch" 60
 $EndSheet
-Text GLabel 12400 8000 2    60   Input ~ 0
-ENABLE
 Text GLabel 12450 7500 2    60   Input ~ 0
 VTERM
 $Comp
-L GND #PWR05
+L GND #PWR04
 U 1 1 5877FF82
 P 7450 7300
-F 0 "#PWR05" H 7450 7300 30  0001 C CNN
+F 0 "#PWR04" H 7450 7300 30  0001 C CNN
 F 1 "GND" H 7450 7230 30  0001 C CNN
 F 2 "" H 7450 7300 60  0001 C CNN
 F 3 "" H 7450 7300 60  0001 C CNN
 	1    7450 7300
 	1    0    0    -1  
 $EndComp
-Text GLabel 8750 9200 0    60   Input ~ 0
-VTERM
-$Comp
-L GND #PWR06
-U 1 1 58780918
-P 11950 9400
-F 0 "#PWR06" H 11950 9400 30  0001 C CNN
-F 1 "GND" H 11950 9330 30  0001 C CNN
-F 2 "" H 11950 9400 60  0001 C CNN
-F 3 "" H 11950 9400 60  0001 C CNN
-	1    11950 9400
-	1    0    0    -1  
-$EndComp
-Text GLabel 13650 5400 2    60   Input ~ 0
+Text GLabel 13350 5400 2    60   Input ~ 0
 VCLK
 $Sheet
 S 2250 10150 1300 750 
@@ -1393,18 +1236,18 @@ Wire Wire Line
 Wire Wire Line
 	13050 5500 13050 5600
 Wire Wire Line
-	13050 5600 13650 5600
+	13050 5600 13350 5600
 Wire Wire Line
 	12750 5800 13050 5800
 Wire Wire Line
 	13050 5800 13050 5700
 Wire Wire Line
-	13050 5700 13650 5700
-Text GLabel 13650 5600 2    60   Output ~ 0
+	13050 5700 13350 5700
+Text GLabel 13350 5600 2    60   Output ~ 0
 LRCLK
-Text GLabel 13650 5700 2    60   Output ~ 0
+Text GLabel 13350 5700 2    60   Output ~ 0
 SDAT
-Text GLabel 13650 5800 2    60   Output ~ 0
+Text GLabel 13350 5800 2    60   Output ~ 0
 BCLK
 Text GLabel 13350 2500 2    60   BiDi ~ 0
 CART_ADDR11
@@ -1448,18 +1291,18 @@ Text GLabel 10550 1400 1    60   BiDi ~ 0
 CART_ADDR00
 Text GLabel 10450 1400 1    60   BiDi ~ 0
 CART_ADDR15
-Text GLabel 13250 6000 2    60   BiDi ~ 0
+Text GLabel 13350 6000 2    60   BiDi ~ 0
 PIF_CLK
-Text GLabel 13250 6100 2    60   BiDi ~ 0
+Text GLabel 13350 6100 2    60   BiDi ~ 0
 PIF_ADR
-Text GLabel 13250 6200 2    60   BiDi ~ 0
+Text GLabel 13350 6200 2    60   BiDi ~ 0
 PIF_DAT
 Wire Wire Line
 	12750 5900 13150 5900
 Wire Wire Line
 	13150 5900 13150 5800
 Wire Wire Line
-	13150 5800 13650 5800
+	13150 5800 13350 5800
 Text GLabel 2100 2150 0    60   Output ~ 0
 JTCK
 Text GLabel 3500 6950 0    60   BiDi ~ 0
@@ -1468,27 +1311,27 @@ Text GLabel 2000 6950 0    60   BiDi ~ 0
 /NMI
 Text GLabel 1050 5600 0    60   BiDi ~ 0
 /INT2
-Text GLabel 13600 4900 2    60   Output ~ 0
+Text GLabel 13350 4900 2    60   Output ~ 0
 /DSYNC
-Text GLabel 13600 4200 2    60   Output ~ 0
+Text GLabel 13350 4200 2    60   Output ~ 0
 SRGB0
-Text GLabel 13600 4300 2    60   Output ~ 0
+Text GLabel 13350 4300 2    60   Output ~ 0
 SRGB1
-Text GLabel 13600 4400 2    60   Output ~ 0
+Text GLabel 13350 4400 2    60   Output ~ 0
 SRGB2
-Text GLabel 13600 4500 2    60   Output ~ 0
+Text GLabel 13350 4500 2    60   Output ~ 0
 SRGB3
-Text GLabel 13600 4600 2    60   Output ~ 0
+Text GLabel 13350 4600 2    60   Output ~ 0
 SRGB4
-Text GLabel 13600 4700 2    60   Output ~ 0
+Text GLabel 13350 4700 2    60   Output ~ 0
 SRGB5
-Text GLabel 13600 4800 2    60   Output ~ 0
+Text GLabel 13350 4800 2    60   Output ~ 0
 SRGB6
 $Comp
-L GND #PWR07
+L GND #PWR05
 U 1 1 587C7165
 P 2300 1650
-F 0 "#PWR07" H 2300 1400 50  0001 C CNN
+F 0 "#PWR05" H 2300 1400 50  0001 C CNN
 F 1 "GND" H 2300 1500 50  0000 C CNN
 F 2 "" H 2300 1650 50  0000 C CNN
 F 3 "" H 2300 1650 50  0000 C CNN
@@ -1497,10 +1340,40 @@ F 3 "" H 2300 1650 50  0000 C CNN
 $EndComp
 Text Notes 6000 6250 0    60   ~ 12
 PLL configuraion
+Wire Wire Line
+	9650 7000 9650 7500
 $Sheet
 S 3750 10150 1300 750 
 U 5890DD16
 F0 "External connections" 60
 F1 "cpu-rcp-connectors.sch" 60
 $EndSheet
+Text GLabel 10550 7500 3    60   BiDi ~ 0
+TXCLK
+Text GLabel 8850 7500 3    60   BiDi ~ 0
+DQ0
+Text GLabel 9050 7500 3    60   BiDi ~ 0
+DQ1
+Text GLabel 9250 7500 3    60   BiDi ~ 0
+DQ2
+Text GLabel 9450 7500 3    60   BiDi ~ 0
+DQ3
+Text GLabel 9650 7500 3    60   BiDi ~ 0
+VREF
+Text GLabel 9850 7500 3    60   BiDi ~ 0
+CMD
+Text GLabel 10050 7500 3    60   BiDi ~ 0
+DQ4
+Text GLabel 10750 7500 3    60   BiDi ~ 0
+RXCLK
+Text GLabel 11050 7500 3    60   BiDi ~ 0
+DQ5
+Text GLabel 11250 7500 3    60   BiDi ~ 0
+DQ6
+Text GLabel 11450 7500 3    60   BiDi ~ 0
+ADDR
+Text GLabel 11650 7500 3    60   BiDi ~ 0
+DQ7
+Text GLabel 11850 7500 3    60   BiDi ~ 0
+DQ8
 $EndSCHEMATC
