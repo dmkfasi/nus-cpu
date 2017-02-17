@@ -381,6 +381,11 @@
     (pad M2 smd rect (at 10.724938 -7.698938 180) (size 0.37 2.4) (layers F.Cu F.Paste F.Mask))
     (pad M3 smd rect (at -10.725063 -7.698938 180) (size 0.37 2.4) (layers F.Cu F.Paste F.Mask))
     (pad M4 smd rect (at -11.375063 -7.698938 180) (size 0.37 2.4) (layers F.Cu F.Paste F.Mask))
+    (model /Users/carbofos/Documents/nus-cpu/kicad/packages3d/shp-32.wrl
+      (at (xyz 0.49 -0.185 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965_Pad (layer F.Cu) (tedit 586EEF84) (tstamp 58827759)
