@@ -504,7 +504,7 @@ AR Path="/5892417A" Ref="P?"  Part="1"
 AR Path="/5890DD16/5892417A" Ref="P1"  Part="1" 
 F 0 "P1" H 4050 4650 50  0000 C CNB
 F 1 "RDRAM-EDGE" H 1450 4650 50  0000 C CNB
-F 2 "n64:rdram-edge" H 2750 4650 20  0001 C CNN
+F 2 "n64:rdram-edge-smt" H 2750 4650 20  0001 C CNN
 F 3 "" H 2800 4500 60  0001 C CNN
 	1    2750 4650
 	1    0    0    -1  
