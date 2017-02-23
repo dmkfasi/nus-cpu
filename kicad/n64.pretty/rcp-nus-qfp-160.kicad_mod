@@ -174,9 +174,9 @@
   (pad 118 smd rect (at -15.670998 11.403844 270) (size 0.381 2.54) (layers F.Cu F.Paste F.Mask))
   (pad 119 smd rect (at -15.670998 12.064244 270) (size 0.381 2.54) (layers F.Cu F.Paste F.Mask))
   (pad 120 smd rect (at -15.670998 12.699244 270) (size 0.381 2.54) (layers F.Cu F.Paste F.Mask))
-  (model SMD_Packages.3dshapes/PQFP-160.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.51 0.51 0.51))
+  (model /Users/carbofos/Documents/nus-cpu/kicad/packages3d/qfp-160.wrl
+    (at (xyz 0.5024999999999999 -0.552 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 -90))
   )
 )
