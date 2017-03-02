@@ -1,4 +1,4 @@
-(module so-08 (layer F.Cu) (tedit 585C3E73)
+(module so-8 (layer F.Cu) (tedit 585C3E73)
   (fp_text reference >Name (at -3.937 -4.445 180) (layer F.SilkS)
     (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
   )
