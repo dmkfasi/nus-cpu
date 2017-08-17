@@ -1,4 +1,4 @@
-update=2017 January 31, Tuesday 20:03:32
+update=Чт 17 авг 2017 22:19:44
 version=1
 last_client=kicad
 [general]
@@ -27,6 +27,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -60,15 +70,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/carbofos/Documents/nus-cpu/kicad/n64
-LibName31=/Users/carbofos/Documents/EE/nus-cpu/kicad/n64
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName30=/home/carbofos/Projects/nus-cpu/kicad/n64
