@@ -50,7 +50,7 @@
   (pad M2 smd rect (at 10.724938 -7.098938 180) (size 0.37 1.2) (layers F.Cu F.Paste F.Mask))
   (pad M3 smd rect (at -10.725063 -7.098938 180) (size 0.37 1.2) (layers F.Cu F.Paste F.Mask))
   (pad M4 smd rect (at -11.375063 -7.098938 180) (size 0.37 1.2) (layers F.Cu F.Paste F.Mask))
-  (model /Users/carbofos/Documents/nus-cpu/kicad/packages3d/shp-32.wrl
+  (model ${KIPRJMOD}/../packages3d/shp-32.wrl
     (at (xyz 0.49 -0.1825 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 -90))

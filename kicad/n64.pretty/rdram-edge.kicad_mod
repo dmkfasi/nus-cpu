@@ -71,7 +71,7 @@
   (pad 28 thru_hole circle (at -15.24 1.266223 180) (size 0.95 0.95) (drill 0.65) (layers *.Cu *.Mask))
   (pad 29 thru_hole circle (at -16.510589 1.266223 180) (size 0.95 0.95) (drill 0.65) (layers *.Cu *.Mask))
   (pad 30 thru_hole circle (at -17.780589 1.266223 180) (size 0.95 0.95) (drill 0.65) (layers *.Cu *.Mask))
-  (model /Users/carbofos/Documents/nus-cpu/kicad/packages3d/harwin-m50-3001545.wrl
+  (model ${KIPRJMOD}/../packages3d/harwin-m50-3001545.wrl
     (at (xyz -0.35 -0.025 0.17))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz -90 0 0))

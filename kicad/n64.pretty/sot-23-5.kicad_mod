@@ -15,7 +15,7 @@
   (pad 3 smd rect (at 0.949938 1.300063) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0.949938 -1.299938) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -0.950063 -1.299938) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_trans/sot23-5.wrl
+  (model ${KIPRJMOD}/../packages3d/sot23-5.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

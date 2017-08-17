@@ -160,7 +160,7 @@
   (pad 118 smd rect (at 10.010903 15.413011 90) (size 2 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 119 smd rect (at 10.810903 15.413011 90) (size 2 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 120 smd rect (at 11.610903 15.413011 90) (size 2 0.55) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_lqfp/qfp-120_08.wrl
+  (model ${KIPRJMOD}/../packages3d/qfp-120_08.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

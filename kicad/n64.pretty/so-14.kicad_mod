@@ -24,7 +24,7 @@
   (pad 12 smd rect (at -1.248463 -3.349938 90) (size 2.2 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd rect (at -2.498463 -3.349938 90) (size 2.2 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at -3.748463 -3.349938 90) (size 2.2 0.7) (layers F.Cu F.Paste F.Mask))
-  (model walter/smd_dil/so-14.wrl
+  (model ${KIPRJMOD}/../packages3d/so-14.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -0))

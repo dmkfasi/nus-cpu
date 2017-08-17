@@ -35,7 +35,7 @@
   (pad 19 smd rect (at 14.343 4.797 180) (size 0.74 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 18 smd rect (at 15.613 4.797 180) (size 0.74 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at 13.073 4.797 180) (size 0.74 2.4) (layers F.Cu F.Paste F.Mask))
-  (model /Users/carbofos/Documents/nus-cpu/kicad/packages3d/harwin-m50-3601542.wrl
+  (model ${KIPRJMOD}/../packages3d/harwin-m50-3601542.wrl
     (at (xyz 0.015 -0.118 0.066))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 180 -90))
