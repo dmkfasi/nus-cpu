@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:n64
+LIBS:cpu-rcp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693

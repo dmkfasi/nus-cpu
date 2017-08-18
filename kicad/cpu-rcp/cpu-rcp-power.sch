@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:n64
+LIBS:cpu-rcp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -485,7 +486,7 @@ $EndComp
 Text Notes 1150 3750 2    60   ~ 12
 DC inputs
 Text Notes 4100 4050 0    60   Italic 0
-3V3 rail rated 2.7A at power supply (approximate consumption measured 1.95A)
+3V3 rail rated 2.7A at power supply (approximate consumption measured: 1.95A with Jumper Pak and 2.15A with single chip Memory Expansion Pak)
 Text Notes 4100 4250 0    60   Italic 0
 VTERM LDO VReg output max is 0.5A
 $Comp
@@ -908,7 +909,7 @@ U 1 1 5892BC55
 P 2750 4250
 F 0 "D2" V 2750 4150 50  0000 C CNB
 F 1 "±" H 2600 4170 50  0001 C CNB
-F 2 "Diodes_SMD:TUMD2" V 2750 4250 50  0001 C CNN
+F 2 "Diodes_SMD:D_0603" V 2750 4250 50  0001 C CNN
 F 3 "" V 2750 4250 50  0000 C CNN
 	1    2750 4250
 	0    -1   -1   0   
