@@ -311,7 +311,7 @@
       (net 2 GND) (zone_connect 1))
   )
 
-  (module Crystals:HC-49V (layer B.Cu) (tedit 56D4D4E4) (tstamp 589ABC4E)
+  (module n64:Crystal_HC-49V (layer B.Cu) (tedit 56D4D4E4) (tstamp 589ABC4E)
     (at 60.966 61.341 180)
     (descr "Quartz boitier HC-49 Vertical")
     (tags "QUARTZ DEV")
