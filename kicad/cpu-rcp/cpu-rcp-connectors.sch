@@ -49,15 +49,15 @@ GND
 Text Label 1050 1700 3    20   ~ 0
 GND
 $Comp
-L CONN_01X04 AUDIO1
+L CONN_01X04 ANAUD1
 U 1 1 5879B398
 P 8250 4100
-F 0 "AUDIO1" H 8250 4400 50  0000 C CNB
-F 1 "AUDIO OUT" V 8400 4100 50  0000 C CNB
+F 0 "ANAUD1" H 8250 3800 50  0000 C CNB
+F 1 "ANALOG AUDIO OUT" H 8250 4400 50  0000 C CNB
 F 2 "n64:connector-molex-505110-0492" H 8250 4100 50  0001 C CNN
 F 3 "" H 8250 4100 50  0000 C CNN
 	1    8250 4100
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L +3V3 #PWR031
@@ -160,17 +160,17 @@ F 3 "" H 800 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X05 VIDEO1
+L CONN_01X04 AVSYNC1
 U 1 1 5879E12D
-P 9950 4150
-F 0 "VIDEO1" H 9950 4500 50  0000 C CNB
-F 1 "VIDEO CLOCK/SYNC" V 10100 4050 50  0000 C CNB
-F 2 "n64:connector-molex-505110-0592" H 9950 4150 50  0001 C CNN
-F 3 "" H 9950 4150 50  0000 C CNN
-	1    9950 4150
+P 9950 4100
+F 0 "AVSYNC1" H 9950 4400 50  0000 C CNB
+F 1 "VIDEO ENCODER SYNC" H 10200 3800 50  0000 C CNB
+F 2 "n64:connector-molex-505110-0492" H 9950 4100 50  0001 C CNN
+F 3 "" H 9950 4100 50  0000 C CNN
+	1    9950 4100
 	1    0    0    -1  
 $EndComp
-Text Label 8900 4150 0    39   ~ 0
+Text Label 9200 4150 0    39   ~ 0
 VIDEO_SYNC
 $Comp
 L GND #PWR033
@@ -183,9 +183,9 @@ F 3 "" H 9650 4450 60  0001 C CNN
 	1    9650 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 9200 4350 0    60   Input ~ 0
+Text GLabel 7000 5950 0    60   Input ~ 0
 VCLK
-Text GLabel 9200 3950 0    60   Input ~ 0
+Text GLabel 9500 3950 0    60   Input ~ 0
 SCIN
 Text GLabel 1250 2200 3    60   BiDi ~ 0
 CART_ADDR15
@@ -231,19 +231,17 @@ Text GLabel 5350 2200 3    60   BiDi ~ 0
 JTCK
 Text GLabel 5450 2200 3    60   BiDi ~ 0
 /NMI
-Text GLabel 7850 5950 0    60   Input ~ 0
-VCLK
 Text GLabel 7850 5150 0    60   Input ~ 0
 SRGB0
 $Comp
-L CONN_01X10 VDAC1
+L CONN_01X10 DVO1
 U 1 1 587AC5FB
-P 8250 5500
-F 0 "VDAC1" H 8250 4900 50  0000 C CNB
-F 1 "RCP DIGITAL RGB OUT" V 8400 5500 50  0000 C CNB
-F 2 "n64:connector-molex-505110-1092" H 8250 5500 50  0001 C CNN
-F 3 "" H 8250 5500 50  0000 C CNN
-	1    8250 5500
+P 8250 5600
+F 0 "DVO1" H 8250 5000 50  0000 C CNB
+F 1 "DIGITAL VIDEO OUT" V 8400 5600 50  0000 C CNB
+F 2 "n64:connector-molex-505110-1092" H 8250 5600 50  0001 C CNN
+F 3 "" H 8250 5600 50  0000 C CNN
+	1    8250 5600
 	1    0    0    1   
 $EndComp
 Text GLabel 7850 5250 0    60   Input ~ 0
@@ -263,12 +261,12 @@ Text GLabel 7850 5850 0    60   Input ~ 0
 $Comp
 L GND #PWR034
 U 1 1 587ACE88
-P 7950 6050
-F 0 "#PWR034" H 7950 6050 30  0001 C CNN
-F 1 "GND" H 7950 5980 30  0001 C CNN
-F 2 "" H 7950 6050 60  0001 C CNN
-F 3 "" H 7950 6050 60  0001 C CNN
-	1    7950 6050
+P 7950 6150
+F 0 "#PWR034" H 7950 6150 30  0001 C CNN
+F 1 "GND" H 7950 6080 30  0001 C CNN
+F 2 "" H 7950 6150 60  0001 C CNN
+F 3 "" H 7950 6150 60  0001 C CNN
+	1    7950 6150
 	1    0    0    -1  
 $EndComp
 Text Notes 900  700  0    60   ~ 12
@@ -281,6 +279,195 @@ Text Label 8050 4150 2    39   ~ 0
 AUDIO_OUT_R
 Text Label 8050 4050 2    39   ~ 0
 AUDIO_OUT_L
+Text Notes 2200 800  0    60   ~ 0
+23 signal wires: RCP 21 + CPU 2
+Text Notes 4900 900  0    60   ~ 0
+4 PIF wires
+Text GLabel 2950 2200 3    60   BiDi ~ 0
+/COLDRESET
+Text Notes 2200 900  0    60   ~ 0
+1 video wire
+Text Notes 4000 900  0    60   ~ 0
+2 audio wires
+Text Notes 4000 800  0    60   ~ 0
+12 GND wires
+Text Notes 4900 800  0    60   ~ 0
+4 VDD wires
+$Comp
+L R_Small R28
+U 1 1 5887BB18
+P 7200 5950
+F 0 "R28" V 7250 5950 50  0000 C TNB
+F 1 "0R" V 7150 5950 50  0000 C BNB
+F 2 "n64:R_0603" H 7200 5950 50  0001 C CNN
+F 3 "" H 7200 5950 50  0000 C CNN
+	1    7200 5950
+	0    -1   -1   0   
+$EndComp
+Text Notes 7000 700  0    60   ~ 12
+Floating island
+Text GLabel 7650 3950 0    60   Input ~ 0
+LOUT
+Text GLabel 7650 4250 0    60   Input ~ 0
+ROUT
+Text GLabel 3050 2200 3    60   BiDi ~ 0
+EEPROM_DAT
+Text GLabel 2850 2200 3    60   BiDi ~ 0
+CIC_CLK
+Text GLabel 5250 2200 3    60   Input ~ 0
+CIC_OUT
+Text GLabel 2750 2200 3    60   Output ~ 0
+CIC_IN
+$Comp
+L +3.3V #PWR035
+U 1 1 58924174
+P 1150 4050
+F 0 "#PWR035" H 1150 3900 50  0001 C CNN
+F 1 "+3.3V" H 1150 4190 50  0000 C CNN
+F 2 "" H 1150 4050 50  0000 C CNN
+F 3 "" H 1150 4050 50  0000 C CNN
+	1    1150 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RDRAM-EDGE P?
+U 1 1 5892417A
+P 2750 4650
+AR Path="/5892417A" Ref="P?"  Part="1" 
+AR Path="/5890DD16/5892417A" Ref="P1"  Part="1" 
+F 0 "P1" H 4050 4650 50  0000 C CNB
+F 1 "RDRAM-EDGE" H 1450 4650 50  0000 C CNB
+F 2 "n64:rdram-edge-smt" H 2750 4650 20  0001 C CNN
+F 3 "" H 2800 4500 60  0001 C CNN
+	1    2750 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 5250 3    60   Input ~ 0
+ENABLE
+Text GLabel 3950 5250 3    60   Input ~ 0
+VTERM
+$Comp
+L GND #PWR036
+U 1 1 589241B6
+P 950 5350
+F 0 "#PWR036" H 950 5350 30  0001 C CNN
+F 1 "GND" H 950 5280 30  0001 C CNN
+F 2 "" H 950 5350 60  0001 C CNN
+F 3 "" H 950 5350 60  0001 C CNN
+	1    950  5350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2650 4150 1    60   BiDi ~ 0
+TXCLK
+Text GLabel 3250 5250 3    60   Input ~ 0
+VREF
+Text GLabel 2450 4150 1    60   BiDi ~ 0
+RXCLK
+Text GLabel 1850 4150 1    60   BiDi ~ 0
+ADDR
+Text GLabel 3050 4150 1    60   BiDi ~ 0
+CMD
+Text GLabel 3250 4150 1    60   BiDi ~ 0
+VREF
+Text GLabel 4050 4150 1    60   BiDi ~ 0
+DQ0
+Text GLabel 3850 4150 1    60   BiDi ~ 0
+DQ1
+Text GLabel 3650 4150 1    60   BiDi ~ 0
+DQ2
+Text GLabel 3450 4150 1    60   BiDi ~ 0
+DQ3
+Text GLabel 2850 4150 1    60   BiDi ~ 0
+DQ4
+Text GLabel 2250 4150 1    60   BiDi ~ 0
+DQ5
+Text GLabel 2050 4150 1    60   BiDi ~ 0
+DQ6
+Text GLabel 1650 4150 1    60   BiDi ~ 0
+DQ7
+Text GLabel 1450 4150 1    60   BiDi ~ 0
+DQ8
+$Comp
+L CONN_01X04 JOY1
+U 1 1 59995801
+P 10500 5800
+F 0 "JOY1" H 10500 6100 50  0000 C CNB
+F 1 "GAMEPAD" V 10650 5800 50  0000 C CNB
+F 2 "n64:connector-molex-505110-0492" H 10500 5800 50  0001 C CNN
+F 3 "" H 10500 5800 50  0000 C CNN
+	1    10500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 599961F0
+P 10200 6050
+F 0 "#PWR037" H 10200 6050 30  0001 C CNN
+F 1 "GND" H 10200 5980 30  0001 C CNN
+F 2 "" H 10200 6050 60  0001 C CNN
+F 3 "" H 10200 6050 60  0001 C CNN
+	1    10200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR038
+U 1 1 5999C077
+P 9400 5150
+F 0 "#PWR038" H 9400 5000 50  0001 C CNN
+F 1 "+3V3" H 9400 5290 50  0000 C CNN
+F 2 "" H 9400 5150 50  0000 C CNN
+F 3 "" H 9400 5150 50  0000 C CNN
+	1    9400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R37
+U 1 1 5999C6E5
+P 9800 5450
+F 0 "R37" V 9850 5450 50  0000 C TNB
+F 1 "750R" V 9750 5450 50  0000 C BNB
+F 2 "n64:R_0603" H 9800 5450 50  0001 C CNN
+F 3 "" H 9800 5450 50  0000 C CNN
+	1    9800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small FIL2
+U 1 1 5999CE89
+P 10000 5750
+F 0 "FIL2" V 10050 5750 50  0000 C CNB
+F 1 "3.3uH" V 9950 5750 50  0001 C CNB
+F 2 "n64:L_0805" H 10000 5750 50  0001 C CNN
+F 3 "" H 10000 5750 50  0001 C CNN
+	1    10000 5750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9400 5750 0    60   Input ~ 0
+JOY1_DATA
+$Comp
+L L_Small FIL4
+U 1 1 599A4E44
+P 9800 5950
+F 0 "FIL4" V 9850 5950 50  0000 C CNB
+F 1 "3.3uH" V 9750 5950 50  0001 C CNB
+F 2 "n64:L_0805" H 9800 5950 50  0001 C CNN
+F 3 "" H 9800 5950 50  0001 C CNN
+	1    9800 5950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9400 5950 0    60   Input ~ 0
+JOY2_DATA
+$Comp
+L R_Small R38
+U 1 1 599A703F
+P 9500 5450
+F 0 "R38" V 9550 5450 50  0000 C TNB
+F 1 "750R" V 9450 5450 50  0000 C BNB
+F 2 "n64:R_0603" H 9500 5450 50  0001 C CNN
+F 3 "" H 9500 5450 50  0000 C CNN
+	1    9500 5450
+	1    0    0    -1  
+$EndComp
 Wire Notes Line
 	6500 600  6500 2900
 Wire Notes Line
@@ -404,17 +591,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 2200 4250 1700
 Wire Wire Line
-	9550 4350 9750 4350
-Wire Wire Line
 	9650 4050 9650 4450
 Wire Wire Line
-	9200 3950 9750 3950
+	9500 3950 9750 3950
 Wire Wire Line
-	8900 4150 9750 4150
-Wire Wire Line
-	8050 5050 7950 5050
-Wire Wire Line
-	7950 5050 7950 6050
+	9200 4150 9750 4150
 Wire Wire Line
 	7850 5150 8050 5150
 Wire Wire Line
@@ -431,84 +612,19 @@ Wire Wire Line
 	7850 5750 8050 5750
 Wire Wire Line
 	8050 5850 7850 5850
-Wire Wire Line
-	7850 5950 8050 5950
 Wire Notes Line
 	6700 3100 11000 3100
-Text Notes 2200 800  0    60   ~ 0
-23 signal wires: RCP 21 + CPU 2
-Text Notes 4900 900  0    60   ~ 0
-4 PIF wires
-Text GLabel 2950 2200 3    60   BiDi ~ 0
-/COLDRESET
-Text Notes 2200 900  0    60   ~ 0
-1 video wire
-Text Notes 4000 900  0    60   ~ 0
-2 audio wires
-Text Notes 4000 800  0    60   ~ 0
-12 GND wires
-Text Notes 4900 800  0    60   ~ 0
-4 VDD wires
-$Comp
-L R_Small R28
-U 1 1 5887BB18
-P 9450 4350
-F 0 "R28" V 9550 4350 50  0000 C CNB
-F 1 "0R" V 9350 4350 50  0000 C CNB
-F 2 "n64:R_0603" H 9450 4350 50  0001 C CNN
-F 3 "" H 9450 4350 50  0000 C CNN
-	1    9450 4350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	9200 4350 9350 4350
+	7000 5950 7100 5950
 Wire Wire Line
 	9750 4050 9650 4050
 Wire Wire Line
 	9750 4250 9650 4250
 Connection ~ 9650 4250
-Text Notes 7000 700  0    60   ~ 12
-Floating island
-Text GLabel 7550 3950 0    60   Input ~ 0
-LOUT
-Text GLabel 7550 4250 0    60   Input ~ 0
-ROUT
 Wire Wire Line
-	7550 3950 8050 3950
+	7650 3950 8050 3950
 Wire Wire Line
-	8050 4250 7550 4250
-Text GLabel 3050 2200 3    60   BiDi ~ 0
-EEPROM_DAT
-Text GLabel 2850 2200 3    60   BiDi ~ 0
-CIC_CLK
-Text GLabel 5250 2200 3    60   Input ~ 0
-CIC_OUT
-Text GLabel 2750 2200 3    60   Output ~ 0
-CIC_IN
-$Comp
-L +3.3V #PWR035
-U 1 1 58924174
-P 1150 4050
-F 0 "#PWR035" H 1150 3900 50  0001 C CNN
-F 1 "+3.3V" H 1150 4190 50  0000 C CNN
-F 2 "" H 1150 4050 50  0000 C CNN
-F 3 "" H 1150 4050 50  0000 C CNN
-	1    1150 4050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L RDRAM-EDGE P?
-U 1 1 5892417A
-P 2750 4650
-AR Path="/5892417A" Ref="P?"  Part="1" 
-AR Path="/5890DD16/5892417A" Ref="P1"  Part="1" 
-F 0 "P1" H 4050 4650 50  0000 C CNB
-F 1 "RDRAM-EDGE" H 1450 4650 50  0000 C CNB
-F 2 "n64:rdram-edge-smt" H 2750 4650 20  0001 C CNN
-F 3 "" H 2800 4500 60  0001 C CNN
-	1    2750 4650
-	1    0    0    -1  
-$EndComp
+	8050 4250 7650 4250
 Wire Wire Line
 	1450 4150 1450 4250
 Wire Wire Line
@@ -557,23 +673,6 @@ Wire Wire Line
 Connection ~ 1650 5250
 Wire Wire Line
 	2450 5250 2450 5050
-Text GLabel 3650 5250 3    60   Input ~ 0
-ENABLE
-Text GLabel 3950 5250 3    60   Input ~ 0
-VTERM
-$Comp
-L GND #PWR036
-U 1 1 589241B6
-P 950 5350
-F 0 "#PWR036" H 950 5350 30  0001 C CNN
-F 1 "GND" H 950 5280 30  0001 C CNN
-F 2 "" H 950 5350 60  0001 C CNN
-F 3 "" H 950 5350 60  0001 C CNN
-	1    950  5350
-	-1   0    0    -1  
-$EndComp
-Text GLabel 2650 4150 1    60   BiDi ~ 0
-TXCLK
 Wire Wire Line
 	1450 5050 1450 5250
 Connection ~ 1450 5250
@@ -606,115 +705,17 @@ Connection ~ 2450 5250
 Wire Wire Line
 	3050 5250 3050 5050
 Connection ~ 2850 5250
-Text GLabel 3250 5250 3    60   Input ~ 0
-VREF
 Wire Wire Line
 	3250 5050 3250 5250
-Text GLabel 2450 4150 1    60   BiDi ~ 0
-RXCLK
-Text GLabel 1850 4150 1    60   BiDi ~ 0
-ADDR
-Text GLabel 3050 4150 1    60   BiDi ~ 0
-CMD
-Text GLabel 3250 4150 1    60   BiDi ~ 0
-VREF
-Text GLabel 4050 4150 1    60   BiDi ~ 0
-DQ0
 Wire Wire Line
 	4050 4150 4050 4250
-Text GLabel 3850 4150 1    60   BiDi ~ 0
-DQ1
-Text GLabel 3650 4150 1    60   BiDi ~ 0
-DQ2
-Text GLabel 3450 4150 1    60   BiDi ~ 0
-DQ3
-Text GLabel 2850 4150 1    60   BiDi ~ 0
-DQ4
-Text GLabel 2250 4150 1    60   BiDi ~ 0
-DQ5
-Text GLabel 2050 4150 1    60   BiDi ~ 0
-DQ6
-Text GLabel 1650 4150 1    60   BiDi ~ 0
-DQ7
-Text GLabel 1450 4150 1    60   BiDi ~ 0
-DQ8
 Wire Wire Line
 	3950 5150 3950 5250
 Connection ~ 3950 5150
-$Comp
-L CONN_01X04 JOY1
-U 1 1 59995801
-P 10500 5800
-F 0 "JOY1" H 10500 6100 50  0000 C CNB
-F 1 "JOY OUT" V 10650 5800 50  0000 C CNB
-F 2 "n64:connector-molex-505110-0492" H 10500 5800 50  0001 C CNN
-F 3 "" H 10500 5800 50  0000 C CNN
-	1    10500 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR037
-U 1 1 599961F0
-P 10200 6050
-F 0 "#PWR037" H 10200 6050 30  0001 C CNN
-F 1 "GND" H 10200 5980 30  0001 C CNN
-F 2 "" H 10200 6050 60  0001 C CNN
-F 3 "" H 10200 6050 60  0001 C CNN
-	1    10200 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10300 5950 10200 5950
 Wire Wire Line
 	10200 5950 10200 6050
-$Comp
-L +3V3 #PWR038
-U 1 1 5999C077
-P 9400 5150
-F 0 "#PWR038" H 9400 5000 50  0001 C CNN
-F 1 "+3V3" H 9400 5290 50  0000 C CNN
-F 2 "" H 9400 5150 50  0000 C CNN
-F 3 "" H 9400 5150 50  0000 C CNN
-	1    9400 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R37
-U 1 1 5999C6E5
-P 9800 5450
-F 0 "R37" V 9900 5450 50  0000 C CNB
-F 1 "750R" V 9700 5450 50  0000 C CNB
-F 2 "n64:R_0603" H 9800 5450 50  0001 C CNN
-F 3 "" H 9800 5450 50  0000 C CNN
-	1    9800 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L L_Small FIL2
-U 1 1 5999CE89
-P 10000 5750
-F 0 "FIL2" V 10050 5750 50  0000 C CNB
-F 1 "3.3uH" V 9950 5750 50  0001 C CNB
-F 2 "n64:L_0805" H 10000 5750 50  0001 C CNN
-F 3 "" H 10000 5750 50  0001 C CNN
-	1    10000 5750
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9400 5750 0    60   Input ~ 0
-JOY1_DATA
-$Comp
-L L_Small FIL4
-U 1 1 599A4E44
-P 9800 5950
-F 0 "FIL4" V 9850 5950 50  0000 C CNB
-F 1 "3.3uH" V 9750 5950 50  0001 C CNB
-F 2 "n64:L_0805" H 9800 5950 50  0001 C CNN
-F 3 "" H 9800 5950 50  0001 C CNN
-	1    9800 5950
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9400 5950 0    60   Input ~ 0
-JOY2_DATA
 Wire Wire Line
 	10300 5850 10000 5850
 Wire Wire Line
@@ -723,17 +724,6 @@ Wire Wire Line
 	10000 5950 9900 5950
 Wire Wire Line
 	10100 5750 10300 5750
-$Comp
-L R_Small R38
-U 1 1 599A703F
-P 9500 5450
-F 0 "R38" V 9600 5450 50  0000 C CNB
-F 1 "750R" V 9400 5450 50  0000 C CNB
-F 2 "n64:R_0603" H 9500 5450 50  0001 C CNN
-F 3 "" H 9500 5450 50  0000 C CNN
-	1    9500 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9400 5750 9900 5750
 Wire Wire Line
@@ -758,4 +748,10 @@ Connection ~ 9500 5250
 Wire Wire Line
 	9800 5350 9800 5250
 Connection ~ 9800 5250
+Wire Wire Line
+	7300 5950 8050 5950
+Wire Wire Line
+	8050 6050 7950 6050
+Wire Wire Line
+	7950 6050 7950 6150
 $EndSCHEMATC
