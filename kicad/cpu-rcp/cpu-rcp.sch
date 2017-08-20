@@ -1194,8 +1194,6 @@ Text Label 10050 1400 3    20   ~ 0
 Text Label 10250 1400 3    20   ~ 0
 /EOK
 Wire Wire Line
-	12750 5400 13350 5400
-Wire Wire Line
 	5850 6100 5750 6100
 Wire Wire Line
 	5450 5900 6450 5900
@@ -1223,7 +1221,7 @@ F 3 "" H 7450 7300 60  0001 C CNN
 	1    7450 7300
 	1    0    0    -1  
 $EndComp
-Text GLabel 13350 5400 2    60   Input ~ 0
+Text GLabel 13350 5000 2    60   BiDi ~ 0
 VCLK
 $Sheet
 S 2250 10150 1300 750 
@@ -1376,4 +1374,10 @@ Text GLabel 11650 7500 3    60   BiDi ~ 0
 DQ7
 Text GLabel 11850 7500 3    60   BiDi ~ 0
 DQ8
+Wire Wire Line
+	13350 5000 13250 5000
+Wire Wire Line
+	13250 5000 13250 5400
+Wire Wire Line
+	13250 5400 12750 5400
 $EndSCHEMATC
