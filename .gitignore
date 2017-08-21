@@ -1,0 +1,8 @@
+.gitignore
+_autosave*
+*.bak
+*-bak
+*.net
+*.dcm
+*.bck
+fp-lib-table
