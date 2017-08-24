@@ -895,4 +895,57 @@ Connection ~ 1200 2700
 NoConn ~ 5500 3250
 Text Notes 3600 4950 0    60   Italic 0
 Approximate consumption measured on NUS-CPU-02 after warm reset of Mario Tennis 64 (J) during demo mode with single game controller connected:\n1080mA <-> 1530mA with two RDRAM18 chips plus Jumper Pak;\n1200mA <-> 1700mA with two RDRAM18 chips plus single chip genuine Memory Expansion Pak;\n1030mA <-> 1360mA without any RDRAM18 chips plus single chip genuine Memory Expansion Pak.
+$Comp
+L U3 U3
+U 1 1 599F281A
+P 2300 6650
+F 0 "U3" H 2300 6650 50  0000 C CNB
+F 1 "U3" H 2300 6500 50  0001 C CNB
+F 2 "n64:sot-23-5" H 2300 6650 20  0001 C CNN
+F 3 "" H 2300 6550 60  0001 C CNN
+	1    2300 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 599F36CE
+P 2600 6450
+F 0 "#PWR?" H 2600 6300 50  0001 C CNN
+F 1 "+3.3V" H 2600 6590 50  0000 C CNN
+F 2 "" H 2600 6450 50  0000 C CNN
+F 3 "" H 2600 6450 50  0000 C CNN
+	1    2600 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 599F374B
+P 2000 6850
+F 0 "#PWR?" H 2000 6850 30  0001 C CNN
+F 1 "GND" H 2000 6780 30  0001 C CNN
+F 2 "" H 2000 6850 60  0001 C CNN
+F 3 "" H 2000 6850 60  0001 C CNN
+	1    2000 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 6750 2    60   Output ~ 0
+ENABLE
+Wire Wire Line
+	2100 6750 2000 6750
+Wire Wire Line
+	2000 6550 2000 6850
+Wire Wire Line
+	2100 6650 2000 6650
+Connection ~ 2000 6750
+Wire Wire Line
+	2100 6550 2000 6550
+Connection ~ 2000 6650
+Wire Wire Line
+	2500 6750 2600 6750
+Wire Wire Line
+	2500 6550 2600 6550
+Wire Wire Line
+	2600 6550 2600 6450
+Text Notes 3600 6300 0    60   Italic 0
+This ensures proper ENABLE signal in case of main power voltage ripples.
 $EndSCHEMATC
