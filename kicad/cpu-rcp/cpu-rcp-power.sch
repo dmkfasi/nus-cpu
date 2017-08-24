@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:n64
+LIBS:cpu-rcp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -484,10 +485,10 @@ F 3 "" H 1800 5000 50  0000 C CNN
 $EndComp
 Text Notes 1150 3750 2    60   ~ 12
 DC inputs
-Text Notes 3600 4050 0    60   Italic 0
-3V3 rail rated 2.7A at power supply.\nApproximate consumption measured: 1.95A with Jumper Pak and 2.15A with single chip Memory Expansion Pak with no Game Controller connected.
-Text Notes 3600 4250 0    60   Italic 0
-VTERM LDO VReg output max is 0.5A
+Text Notes 3600 3900 0    60   Italic 0
+3V3 rail rated 2.7A at genuine power supply.
+Text Notes 3600 4100 0    60   Italic 0
+VTERM LDO VReg output max is rated at 0.5A
 $Comp
 L GND #PWR016
 U 1 1 587BC800
@@ -560,7 +561,7 @@ F 3 "" H 5500 3200 60  0001 C CNN
 $EndComp
 Text GLabel 5500 2700 0    60   Input ~ 0
 VTERM
-Text Notes 3600 4450 0    60   Italic 0
+Text Notes 3600 4300 0    60   Italic 0
 ENABLE pull-up with R2 to 3V3 rail on the original schematic
 $Comp
 L R_Small R2
@@ -586,7 +587,7 @@ F 3 "" V 2000 4200 50  0000 C CNN
 $EndComp
 Text GLabel 1500 4000 0    60   Input ~ 0
 /COLDRESET
-Text Notes 3600 4650 0    60   Italic 0
+Text Notes 3600 4500 0    60   Italic 0
 #COLDRESET affects ENABLE
 Wire Wire Line
 	1100 4800 2600 4800
@@ -891,4 +892,7 @@ Connection ~ 1200 3100
 Wire Wire Line
 	1200 2800 1200 2700
 Connection ~ 1200 2700
+NoConn ~ 5500 3250
+Text Notes 3600 4950 0    60   Italic 0
+Approximate consumption measured on NUS-CPU-02 after warm reset of Mario Tennis 64 (J) during demo mode with single game controller connected:\n1080mA <-> 1530mA with two RDRAM18 chips plus Jumper Pak;\n1200mA <-> 1700mA with two RDRAM18 chips plus single chip genuine Memory Expansion Pak;\n1030mA <-> 1360mA without any RDRAM18 chips plus single chip genuine Memory Expansion Pak.
 $EndSCHEMATC
