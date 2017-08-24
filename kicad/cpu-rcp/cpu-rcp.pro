@@ -1,4 +1,4 @@
-update=Чт 17 авг 2017 22:19:44
+update=Tue 22 Aug 2017 01:12:00 PM MSK
 version=1
 last_client=kicad
 [general]
