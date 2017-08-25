@@ -948,4 +948,6 @@ Wire Wire Line
 	2600 6550 2600 6450
 Text Notes 3600 6300 0    60   Italic 0
 This ensures proper ENABLE signal in case of main power voltage ripples.
+Text Notes 3600 5200 0    60   Italic 0
+VTERM consumption measured up to 60mA with NCP1117 adjusted with R26/R27 divider.\nVoltage drop down to 2.40V for VTERM and 1.80V for VREF does not affect demo mode of Mario Tennis 64.
 $EndSCHEMATC
