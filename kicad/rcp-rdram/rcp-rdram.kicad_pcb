@@ -21,8 +21,8 @@
 
   (layers
     (0 F.Cu signal)
-    (1 Gnd.Cu power hide)
-    (2 Pwr.Cu power hide)
+    (1 Gnd.Cu power)
+    (2 Pwr.Cu power)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
@@ -73,8 +73,8 @@
     (grid_origin 22.5975 74.7)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x01030_80000007)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -94,9 +94,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerbers/))
   )
 
   (net 0 "")
