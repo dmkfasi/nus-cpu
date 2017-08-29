@@ -567,8 +567,8 @@ $Comp
 L R_Small R2
 U 1 1 58912A7D
 P 1800 4600
-F 0 "R2" V 1700 4700 50  0000 C CNB
-F 1 "2K" V 1700 4500 50  0000 C CNB
+F 0 "R2" V 1900 4600 50  0000 C BNB
+F 1 "2K" V 1750 4600 50  0000 C BNB
 F 2 "n64:R_0603" H 1800 4600 50  0001 C CNN
 F 3 "" H 1800 4600 50  0000 C CNN
 	1    1800 4600
@@ -821,8 +821,6 @@ Wire Wire Line
 	5600 2700 5600 2800
 Connection ~ 5600 2700
 Wire Wire Line
-	1900 4600 2600 4600
-Wire Wire Line
 	800  1150 3300 1150
 Wire Wire Line
 	800  1550 3300 1550
@@ -848,7 +846,6 @@ Connection ~ 1600 4400
 Connection ~ 1200 4400
 Wire Wire Line
 	2000 4300 2000 4600
-Connection ~ 2000 4600
 Wire Wire Line
 	1200 4700 1100 4700
 Connection ~ 1200 4600
@@ -931,7 +928,7 @@ $EndComp
 Text GLabel 2600 6750 2    60   Output ~ 0
 ENABLE
 Wire Wire Line
-	2100 6750 2000 6750
+	2000 6750 2100 6750
 Wire Wire Line
 	2000 6550 2000 6850
 Wire Wire Line
@@ -950,4 +947,37 @@ Text Notes 3600 6300 0    60   Italic 0
 This ensures proper ENABLE signal in case of main power voltage ripples.
 Text Notes 3600 5200 0    60   Italic 0
 VTERM consumption measured up to 60mA with NCP1117 adjusted with R26/R27 divider.\nVoltage drop down to 2.40V for VTERM and 1.80V for VREF does not affect demo mode of Mario Tennis 64.
+$Comp
+L R_Small R36
+U 1 1 59A55A00
+P 2300 4600
+F 0 "R36" V 2250 4600 50  0000 C BNB
+F 1 "51K" V 2400 4600 50  0000 C BNB
+F 2 "n64:R_0603" H 2300 4600 50  0001 C CNN
+F 3 "" H 2300 4600 50  0001 C CNN
+	1    2300 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C144
+U 1 1 59A55B70
+P 2500 5000
+F 0 "C144" H 2700 5000 50  0000 C CNB
+F 1 "~" H 2510 4920 50  0001 L CNN
+F 2 "n64:C_0603" H 2500 5000 50  0001 C CNN
+F 3 "" H 2500 5000 50  0001 C CNN
+	1    2500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4600 2200 4600
+Connection ~ 2000 4600
+Wire Wire Line
+	2400 4600 2600 4600
+Wire Wire Line
+	2500 4600 2500 4900
+Connection ~ 2500 4600
+Wire Wire Line
+	2500 5100 2500 5200
+Connection ~ 2500 5200
 $EndSCHEMATC
