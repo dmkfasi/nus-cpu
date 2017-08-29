@@ -82,7 +82,7 @@ F 1 "NINTENDO-64_PINHEAD-25X2" H 3500 1300 50  0001 C CNN
 F 2 "n64:connector-molex-502790-5091" H 3530 1450 20  0001 C CNN
 F 3 "" H 3500 1300 60  0001 C CNN
 	1    3500 1300
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 NoConn ~ 4750 1700
 NoConn ~ 2250 1700
