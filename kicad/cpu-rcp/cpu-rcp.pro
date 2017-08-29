@@ -1,4 +1,4 @@
-update=Tue 22 Aug 2017 01:12:00 PM MSK
+update=Tue 29 Aug 2017 02:32:01 PM MSK
 version=1
 last_client=kicad
 [general]
@@ -39,7 +39,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=../../kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
