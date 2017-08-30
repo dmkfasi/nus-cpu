@@ -44,10 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1150 1700 3    20   ~ 0
-GND
-Text Label 1050 1700 3    20   ~ 0
-GND
 $Comp
 L CONN_01X04 DAUD1
 U 1 1 5879B398
@@ -62,109 +58,51 @@ $EndComp
 $Comp
 L +3V3 #PWR028
 U 1 1 5879B39F
-P 800 1500
-F 0 "#PWR028" H 800 1350 50  0001 C CNN
-F 1 "+3V3" H 800 1640 50  0000 C CNN
-F 2 "" H 800 1500 50  0000 C CNN
-F 3 "" H 800 1500 50  0000 C CNN
-	1    800  1500
+P 800 1100
+F 0 "#PWR028" H 800 950 50  0001 C CNN
+F 1 "+3V3" H 800 1240 50  0000 C CNN
+F 2 "" H 800 1100 50  0000 C CNN
+F 3 "" H 800 1100 50  0000 C CNN
+	1    800  1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L CART-EDGE P?
+L CART-FLAT-CABLE P?
 U 1 1 5879B3A5
-P 3500 1300
+P 3450 1300
 AR Path="/5879B3A5" Ref="P?"  Part="1" 
 AR Path="/58786075/5879B3A5" Ref="P5"  Part="1" 
 AR Path="/5890DD16/5879B3A5" Ref="P5"  Part="1" 
-F 0 "P5" H 1050 1700 50  0000 C CNB
-F 1 "NINTENDO-64_PINHEAD-25X2" H 3500 1300 50  0001 C CNN
-F 2 "n64:connector-molex-502790-5091" H 3530 1450 20  0001 C CNN
-F 3 "" H 3500 1300 60  0001 C CNN
-	1    3500 1300
-	-1   0    0    -1  
+F 0 "P5" H 6000 1650 50  0000 R CNB
+F 1 "502790-5091" H 1000 1650 50  0000 L CNB
+F 2 "n64:connector-molex-502790-5091" H 3480 1450 20  0001 C CNN
+F 3 "" H 3450 1300 60  0001 C CNN
+	1    3450 1300
+	1    0    0    -1  
 $EndComp
-NoConn ~ 4750 1700
-NoConn ~ 2250 1700
-Text Label 3150 1700 3    20   ~ 0
-GND
-Text Label 3250 1700 3    20   ~ 0
-GND
-Text Label 3450 1700 3    20   ~ 0
-GND
-Text Label 3550 1700 3    20   ~ 0
-GND
-Text Label 3650 1700 3    20   ~ 0
-GND
-Text Label 5650 1700 3    20   ~ 0
-GND
-Text Label 5750 1700 3    20   ~ 0
-GND
-Text Label 5950 1700 3    20   ~ 0
-GND
-Text Label 5050 2200 1    20   ~ 0
-CART_ADDR07
-Text Label 4950 2200 1    20   ~ 0
-CART_ADDR06
-Text Label 4650 2200 1    20   ~ 0
-CART_ADDR05
-Text Label 4550 2200 1    20   ~ 0
-CART_ADDR04
-Text Label 4150 2200 1    20   ~ 0
-CART_ADDR03
-Text Label 3950 2200 1    20   ~ 0
-CART_ADDR02
-Text Label 3850 2200 1    20   ~ 0
-CART_ADDR01
-Text Label 3750 2200 1    20   ~ 0
-CART_ADDR00
-Text Label 2550 2200 1    20   ~ 0
-CART_ADDR08
-Text Label 2450 2200 1    20   ~ 0
-CART_ADDR09
-Text Label 2150 2200 1    20   ~ 0
-CART_ADDR10
-Text Label 2050 2200 1    20   ~ 0
-CART_ADDR11
-Text Label 1650 2200 1    20   ~ 0
-CART_ADDR12
-Text Label 1450 2200 1    20   ~ 0
-CART_ADDR13
-Text Label 1350 2200 1    20   ~ 0
-CART_ADDR14
-Text Label 1250 2200 1    20   ~ 0
-CART_ADDR15
-Text Label 1950 2200 1    20   ~ 0
-/CART_READ
-Text Label 1750 2200 1    20   ~ 0
-/CART_WRITE
-Text Label 5550 2900 1    39   ~ 0
+Text Label 5150 2200 3    39   ~ 0
 VIDEO_SYNC
-Text Label 4250 2200 1    20   ~ 0
-CART_ALE_L
-Text Label 4450 2200 1    20   ~ 0
-CART_ALE_H
 $Comp
 L GND #PWR029
 U 1 1 5879B42A
-P 800 2050
-F 0 "#PWR029" H 800 2050 30  0001 C CNN
-F 1 "GND" H 800 1980 30  0001 C CNN
-F 2 "" H 800 2050 60  0001 C CNN
-F 3 "" H 800 2050 60  0001 C CNN
-	1    800  2050
+P 6050 2000
+F 0 "#PWR029" H 6050 2000 30  0001 C CNN
+F 1 "GND" H 6050 1930 30  0001 C CNN
+F 2 "" H 6050 2000 60  0001 C CNN
+F 3 "" H 6050 2000 60  0001 C CNN
+	1    6050 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X04 AVSYNC1
 U 1 1 5879E12D
 P 4450 4600
-F 0 "AVSYNC1" H 4450 4900 50  0000 C CNB
-F 1 "VIDEO ENCODER SYNC" H 4700 4300 50  0000 C CNB
+F 0 "AVSYNC1" H 4450 4300 50  0000 C CNB
+F 1 "VIDEO ENCODER SYNC" H 4700 4950 50  0000 C CNB
 F 2 "n64:connector-molex-505110-0492" H 4450 4600 50  0001 C CNN
 F 3 "" H 4450 4600 50  0000 C CNN
 	1    4450 4600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Label 3700 4650 0    39   ~ 0
 VIDEO_SYNC
@@ -183,49 +121,49 @@ Text GLabel 1400 6450 0    60   Input ~ 0
 VCLK
 Text GLabel 4000 4450 0    60   Input ~ 0
 SCIN
-Text GLabel 1250 2200 3    60   BiDi ~ 0
+Text GLabel 1550 2200 3    60   BiDi ~ 0
 CART_ADDR15
-Text GLabel 1350 2200 3    60   BiDi ~ 0
-CART_ADDR14
-Text GLabel 1450 2200 3    60   BiDi ~ 0
-CART_ADDR13
-Text GLabel 1650 2200 3    60   BiDi ~ 0
-CART_ADDR12
 Text GLabel 1750 2200 3    60   BiDi ~ 0
-/CART_WRITE
+CART_ADDR14
 Text GLabel 1950 2200 3    60   BiDi ~ 0
-/CART_READ
-Text GLabel 2050 2200 3    60   BiDi ~ 0
-CART_ADDR11
-Text GLabel 2150 2200 3    60   BiDi ~ 0
-CART_ADDR10
-Text GLabel 2450 2200 3    60   BiDi ~ 0
-CART_ADDR09
+CART_ADDR13
+Text GLabel 2350 2200 3    60   BiDi ~ 0
+CART_ADDR12
 Text GLabel 2550 2200 3    60   BiDi ~ 0
-CART_ADDR08
-Text GLabel 3750 2200 3    60   BiDi ~ 0
-CART_ADDR00
-Text GLabel 3850 2200 3    60   BiDi ~ 0
-CART_ADDR01
+/CART_WRITE
+Text GLabel 2950 2200 3    60   BiDi ~ 0
+/CART_READ
+Text GLabel 3150 2200 3    60   BiDi ~ 0
+CART_ADDR11
+Text GLabel 3350 2200 3    60   BiDi ~ 0
+CART_ADDR10
 Text GLabel 3950 2200 3    60   BiDi ~ 0
-CART_ADDR02
+CART_ADDR09
 Text GLabel 4150 2200 3    60   BiDi ~ 0
+CART_ADDR08
+Text GLabel 1650 2200 3    60   BiDi ~ 0
+CART_ADDR00
+Text GLabel 1850 2200 3    60   BiDi ~ 0
+CART_ADDR01
+Text GLabel 2050 2200 3    60   BiDi ~ 0
+CART_ADDR02
+Text GLabel 2450 2200 3    60   BiDi ~ 0
 CART_ADDR03
-Text GLabel 4250 2200 3    60   BiDi ~ 0
+Text GLabel 2650 2200 3    60   BiDi ~ 0
 CART_ALE_L
-Text GLabel 4450 2200 3    60   BiDi ~ 0
+Text GLabel 3050 2200 3    60   BiDi ~ 0
 CART_ALE_H
-Text GLabel 4550 2200 3    60   BiDi ~ 0
+Text GLabel 3250 2200 3    60   BiDi ~ 0
 CART_ADDR04
-Text GLabel 4650 2200 3    60   BiDi ~ 0
+Text GLabel 3450 2200 3    60   BiDi ~ 0
 CART_ADDR05
-Text GLabel 4950 2200 3    60   BiDi ~ 0
+Text GLabel 4050 2200 3    60   BiDi ~ 0
 CART_ADDR06
-Text GLabel 5050 2200 3    60   BiDi ~ 0
+Text GLabel 4250 2200 3    60   BiDi ~ 0
 CART_ADDR07
-Text GLabel 5350 2200 3    60   BiDi ~ 0
+Text GLabel 1050 2200 3    60   BiDi ~ 0
 JTCK
-Text GLabel 5450 2200 3    60   BiDi ~ 0
+Text GLabel 4550 2200 3    60   BiDi ~ 0
 /NMI
 Text GLabel 2250 5650 0    60   Input ~ 0
 SRGB0
@@ -275,7 +213,7 @@ Text Notes 2200 800  0    60   ~ 0
 23 signal wires: RCP 21 + CPU 2
 Text Notes 4900 900  0    60   ~ 0
 4 PIF wires
-Text GLabel 2950 2200 3    60   BiDi ~ 0
+Text GLabel 4650 2200 3    60   BiDi ~ 0
 /COLDRESET
 Text Notes 2200 900  0    60   ~ 0
 1 video wire
@@ -296,13 +234,13 @@ F 3 "" H 1600 6450 50  0000 C CNN
 	1    1600 6450
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3050 2200 3    60   BiDi ~ 0
+Text GLabel 5050 2200 3    60   BiDi ~ 0
 EEPROM_DAT
-Text GLabel 2850 2200 3    60   BiDi ~ 0
+Text GLabel 4950 2200 3    60   BiDi ~ 0
 CIC_CLK
-Text GLabel 5250 2200 3    60   Input ~ 0
+Text GLabel 4850 2200 3    60   Input ~ 0
 CIC_OUT
-Text GLabel 2750 2200 3    60   Output ~ 0
+Text GLabel 4750 2200 3    60   Output ~ 0
 CIC_IN
 $Comp
 L +3.3V #PWR032
@@ -377,12 +315,12 @@ $Comp
 L CONN_01X04 JOY1
 U 1 1 59995801
 P 4900 6300
-F 0 "JOY1" H 4900 6600 50  0000 C CNB
+F 0 "JOY1" H 4900 6000 50  0000 C CNB
 F 1 "GAMEPAD" V 5050 6300 50  0000 C CNB
 F 2 "n64:connector-molex-505110-0492" H 4900 6300 50  0001 C CNN
 F 3 "" H 4900 6300 50  0000 C CNN
 	1    4900 6300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L GND #PWR034
@@ -463,119 +401,7 @@ Wire Notes Line
 Wire Notes Line
 	5200 5200 1400 5200
 Wire Wire Line
-	5950 1900 5950 1700
-Wire Wire Line
-	800  1900 5950 1900
-Wire Wire Line
-	800  1900 800  2050
-Wire Wire Line
-	1050 1700 1050 1900
-Connection ~ 1050 1900
-Wire Wire Line
-	1150 1700 1150 1900
-Connection ~ 1150 1900
-Wire Wire Line
-	1550 1700 1550 1900
-Connection ~ 1550 1900
-Wire Wire Line
-	3150 1700 3150 1900
-Connection ~ 3150 1900
-Wire Wire Line
-	3250 1700 3250 1900
-Connection ~ 3250 1900
-Wire Wire Line
-	3450 1700 3450 1900
-Connection ~ 3450 1900
-Wire Wire Line
-	3550 1700 3550 1900
-Connection ~ 3550 1900
-Wire Wire Line
-	3650 1700 3650 1900
-Connection ~ 3650 1900
-Wire Wire Line
-	4050 1700 4050 1900
-Connection ~ 4050 1900
-Wire Wire Line
-	5650 1700 5650 1900
-Connection ~ 5650 1900
-Wire Wire Line
-	5750 1700 5750 1900
-Connection ~ 5750 1900
-Wire Wire Line
-	5150 1800 5150 1700
-Wire Wire Line
-	800  1800 5150 1800
-Wire Wire Line
-	800  1800 800  1500
-Wire Wire Line
-	4350 1700 4350 1800
-Connection ~ 4350 1800
-Wire Wire Line
-	2650 1700 2650 1800
-Connection ~ 2650 1800
-Wire Wire Line
-	1850 1700 1850 1800
-Connection ~ 1850 1800
-Wire Wire Line
-	5450 1700 5450 2200
-Wire Wire Line
-	5850 1700 5850 2900
-Wire Wire Line
-	3350 1700 3350 2900
-Wire Wire Line
-	5350 2200 5350 1700
-Wire Wire Line
-	5050 2200 5050 1700
-Wire Wire Line
-	4950 2200 4950 1700
-Wire Wire Line
-	1250 1700 1250 2200
-Wire Wire Line
-	1350 2200 1350 1700
-Wire Wire Line
-	1450 1700 1450 2200
-Wire Wire Line
-	1650 2200 1650 1700
-Wire Wire Line
-	2050 1700 2050 2200
-Wire Wire Line
-	2150 2200 2150 1700
-Wire Wire Line
-	2450 1700 2450 2200
-Wire Wire Line
-	2550 2200 2550 1700
-Wire Wire Line
-	3750 1700 3750 2200
-Wire Wire Line
-	3850 2200 3850 1700
-Wire Wire Line
-	3950 1700 3950 2200
-Wire Wire Line
-	4150 2200 4150 1700
-Wire Wire Line
-	4550 1700 4550 2200
-Wire Wire Line
-	4650 2200 4650 1700
-Wire Wire Line
-	2950 2200 2950 1700
-Wire Wire Line
-	2850 2200 2850 1700
-Wire Wire Line
-	1950 2200 1950 1700
-Wire Wire Line
-	1750 2200 1750 1700
-Wire Wire Line
-	5250 2200 5250 1700
-Wire Wire Line
-	3050 2200 3050 1700
-Wire Wire Line
-	5550 2900 5550 1700
-Wire Wire Line
-	2750 2200 2750 1700
-Wire Wire Line
-	4450 2200 4450 1700
-Wire Wire Line
-	4250 2200 4250 1700
+	6050 1900 6050 2000
 Wire Wire Line
 	4150 4550 4150 4850
 Wire Wire Line
@@ -744,8 +570,6 @@ Text GLabel 2250 4550 0    60   Input ~ 0
 SDAT
 Text GLabel 2250 4650 0    60   Input ~ 0
 BCLK
-NoConn ~ 3350 2900
-NoConn ~ 5850 2900
 Wire Wire Line
 	2250 4550 2450 4550
 Wire Wire Line
@@ -777,4 +601,130 @@ Wire Notes Line
 	5300 5100 5300 4100
 Wire Notes Line
 	5300 4100 5200 4100
+Wire Wire Line
+	5850 1900 5850 1700
+Wire Wire Line
+	1150 1900 6050 1900
+Wire Wire Line
+	5950 1700 5950 1900
+Connection ~ 5950 1900
+Wire Wire Line
+	5550 1700 5550 1900
+Connection ~ 5850 1900
+Wire Wire Line
+	4450 1800 4450 1700
+Wire Wire Line
+	800  1800 4450 1800
+Wire Wire Line
+	800  1800 800  1100
+Wire Wire Line
+	1150 1700 1150 1900
+Connection ~ 5550 1900
+Wire Wire Line
+	5450 1700 5450 1900
+Connection ~ 5450 1900
+Wire Wire Line
+	5350 1900 5350 1700
+Connection ~ 5350 1900
+Wire Wire Line
+	5250 1700 5250 1900
+Connection ~ 5250 1900
+Wire Wire Line
+	4350 1700 4350 1800
+Connection ~ 4350 1800
+Wire Wire Line
+	3850 1700 3850 1900
+Connection ~ 3850 1900
+Wire Wire Line
+	3750 1900 3750 1700
+Connection ~ 3750 1900
+Wire Wire Line
+	3650 1700 3650 1800
+Connection ~ 3650 1800
+Wire Wire Line
+	3550 1800 3550 1700
+Connection ~ 3550 1800
+Wire Wire Line
+	2850 1700 2850 1800
+Connection ~ 2850 1800
+Wire Wire Line
+	2750 1800 2750 1700
+Connection ~ 2750 1800
+Wire Wire Line
+	2250 1700 2250 1900
+Connection ~ 2250 1900
+Wire Wire Line
+	2150 1900 2150 1700
+Connection ~ 2150 1900
+Wire Wire Line
+	1450 1700 1450 1900
+Connection ~ 1450 1900
+Wire Wire Line
+	1350 1900 1350 1700
+Connection ~ 1350 1900
+Wire Wire Line
+	1250 1700 1250 1900
+Connection ~ 1250 1900
+Wire Wire Line
+	5750 1700 5750 2200
+NoConn ~ 5750 2200
+NoConn ~ 5650 2200
+Wire Wire Line
+	5650 1700 5650 2200
+Wire Wire Line
+	4550 2200 4550 1700
+Wire Wire Line
+	4650 1700 4650 2200
+Wire Wire Line
+	4750 2200 4750 1700
+Wire Wire Line
+	4850 1700 4850 2200
+Wire Wire Line
+	4950 2200 4950 1700
+Wire Wire Line
+	5050 1700 5050 2200
+Wire Wire Line
+	5150 1700 5150 2200
+Wire Wire Line
+	4250 2200 4250 1700
+Wire Wire Line
+	4150 1700 4150 2200
+Wire Wire Line
+	3050 2200 3050 1700
+Wire Wire Line
+	2950 1700 2950 2200
+Wire Wire Line
+	2650 2200 2650 1700
+Wire Wire Line
+	2550 1700 2550 2200
+Wire Wire Line
+	1550 2200 1550 1700
+Wire Wire Line
+	1650 2200 1650 1700
+Wire Wire Line
+	1750 2200 1750 1700
+Wire Wire Line
+	1850 2200 1850 1700
+Wire Wire Line
+	1950 2200 1950 1700
+Wire Wire Line
+	1050 1700 1050 2200
+Wire Wire Line
+	3950 2200 3950 1700
+Wire Wire Line
+	2350 2200 2350 1700
+Wire Wire Line
+	3150 2200 3150 1700
+Wire Wire Line
+	2050 2200 2050 1700
+Wire Wire Line
+	3350 2200 3350 1700
+Wire Wire Line
+	2450 2200 2450 1700
+Wire Wire Line
+	3450 2200 3450 1700
+Wire Wire Line
+	3250 2200 3250 1700
+Wire Wire Line
+	4050 2200 4050 1700
 $EndSCHEMATC
