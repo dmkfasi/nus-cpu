@@ -1202,12 +1202,6 @@ Connection ~ 5350 5800
 Wire Wire Line
 	5550 6100 5350 6100
 Connection ~ 5350 6100
-$Sheet
-S 750  10150 1300 750 
-U 58771482
-F0 "Power rails" 60
-F1 "cpu-rcp-power.sch" 60
-$EndSheet
 Text GLabel 12450 7500 2    60   Input ~ 0
 VTERM
 $Comp
@@ -1224,10 +1218,10 @@ $EndComp
 Text GLabel 13350 5000 2    60   BiDi ~ 0
 VCLK
 $Sheet
-S 2250 10150 1300 750 
+S 3250 10150 1300 750 
 U 58786075
-F0 "Peripherals" 60
-F1 "cpu-rcp-peripherals.sch" 60
+F0 "Peripherals" 100
+F1 "cpu-rcp-peripherals.sch" 100
 $EndSheet
 Wire Wire Line
 	12750 5500 13050 5500
@@ -1341,10 +1335,10 @@ PLL configuraion
 Wire Wire Line
 	9650 7000 9650 7500
 $Sheet
-S 3750 10150 1300 750 
+S 5750 10150 1300 750 
 U 5890DD16
-F0 "External connections" 60
-F1 "cpu-rcp-connectors.sch" 60
+F0 "External connections" 100
+F1 "cpu-rcp-connectors.sch" 100
 $EndSheet
 Text GLabel 10550 7500 3    60   BiDi ~ 0
 TXCLK
@@ -1381,4 +1375,10 @@ Wire Wire Line
 Wire Wire Line
 	13250 5400 12750 5400
 NoConn ~ 3050 7300
+$Sheet
+S 750  10150 1300 750 
+U 58771482
+F0 "Power rails" 100
+F1 "cpu-rcp-power.sch" 100
+$EndSheet
 $EndSCHEMATC
