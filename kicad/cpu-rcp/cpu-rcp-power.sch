@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 4 4
 Title "Power rails and decouplers"
 Date "11/01/2017"
 Rev "4"
@@ -569,7 +569,7 @@ U 1 1 5892BC55
 P 2000 4400
 F 0 "D2" V 2000 4300 50  0000 C CNB
 F 1 "±" H 1850 4320 50  0001 C CNB
-F 2 "n64:D_TUMD2" V 2000 4400 50  0001 C CNN
+F 2 "n64:D_0805" V 2000 4400 50  0001 C CNN
 F 3 "" V 2000 4400 50  0000 C CNN
 	1    2000 4400
 	0    -1   -1   0   
