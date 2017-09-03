@@ -29,15 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:rcp-cart-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Flat cable to Cartridge Edge connections"
+Date "2017-09-03"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -45,25 +44,495 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CART-EDGE CONN_EXP1
+L CART-EDGE P5
 U 1 1 59A5FC88
-P 4850 1500
-F 0 "CONN_EXP1" H 2600 1800 50  0000 C CNB
-F 1 "CART-EDGE" H 7100 1800 50  0000 C CNB
-F 2 "n64:cart-edge-2x25-2.54mm" H 4850 1800 20  0001 C CNN
-F 3 "" H 3900 1700 60  0001 C CNN
-	1    4850 1500
+P 4300 1500
+F 0 "P5" H 1800 1900 50  0000 L CNB
+F 1 "CART-EDGE" H 6800 1900 50  0000 R CNB
+F 2 "n64:cart-edge-2x25-2.54mm" H 4300 1800 20  0001 C CNN
+F 3 "" H 3350 1700 60  0001 C CNN
+	1    4300 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L CART-FLAT-CABLE CONN_EXP2
+L CART-FLAT-CABLE CART-FLAT-CABLE1
 U 1 1 59A58F37
-P 4850 3200
-F 0 "CONN_EXP2" H 2600 3500 50  0000 C CNB
-F 1 "CART-EDGE" H 7100 3500 50  0000 C CNB
-F 2 "n64:connector-molex-502790-5091" H 4850 3500 20  0001 C CNN
-F 3 "" H 3900 3400 60  0001 C CNN
-	1    4850 3200
+P 4250 4800
+F 0 "CART-FLAT-CABLE1" H 1800 5150 50  0000 L CNB
+F 1 "502790-5091" H 6800 5150 50  0000 R CNB
+F 2 "n64:connector-molex-502790-5091" H 4250 5100 20  0001 C CNN
+F 3 "" H 3300 5000 60  0001 C CNN
+	1    4250 4800
 	1    0    0    1   
 $EndComp
+$Comp
+L GND #PWR01
+U 1 1 59ABC2EE
+P 6850 2100
+F 0 "#PWR01" H 6850 1850 50  0001 C CNN
+F 1 "GND" H 6850 1950 50  0000 C CNN
+F 2 "" H 6850 2100 50  0001 C CNN
+F 3 "" H 6850 2100 50  0001 C CNN
+	1    6850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR02
+U 1 1 59ABC46F
+P 1500 1250
+F 0 "#PWR02" H 1500 1100 50  0001 C CNN
+F 1 "+3V3" H 1500 1390 50  0000 C CNN
+F 2 "" H 1500 1250 50  0001 C CNN
+F 3 "" H 1500 1250 50  0001 C CNN
+	1    1500 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3050 1900
+$Comp
+L GND #PWR03
+U 1 1 59ABC7DA
+P 6900 4400
+F 0 "#PWR03" H 6900 4150 50  0001 C CNN
+F 1 "GND" H 6900 4250 50  0000 C CNN
+F 2 "" H 6900 4400 50  0001 C CNN
+F 3 "" H 6900 4400 50  0001 C CNN
+	1    6900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR04
+U 1 1 59ABCB61
+P 1500 4100
+F 0 "#PWR04" H 1500 3950 50  0001 C CNN
+F 1 "+3V3" H 1500 4240 50  0000 C CNN
+F 2 "" H 1500 4100 50  0001 C CNN
+F 3 "" H 1500 4100 50  0001 C CNN
+	1    1500 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4150 1900
+NoConn ~ 6550 4400
+NoConn ~ 6450 4400
+NoConn ~ 5550 1900
+NoConn ~ 6650 1900
+NoConn ~ 6350 1900
+NoConn ~ 5950 4400
+Text Label 1850 4100 1    60   ~ 0
+JTCK
+Text Label 2350 4100 1    60   ~ 0
+CART_ADDR15
+Text Label 2450 4100 1    60   ~ 0
+CART_ADDR00
+Text Label 2550 4100 1    60   ~ 0
+CART_ADDR14
+Text Label 2650 4100 1    60   ~ 0
+CART_ADDR01
+Text Label 2750 4100 1    60   ~ 0
+CART_ADDR13
+Text Label 2850 4100 1    60   ~ 0
+CART_ADDR02
+Text Label 3150 4100 1    60   ~ 0
+CART_ADDR12
+Text Label 3250 4100 1    60   ~ 0
+CART_ADDR03
+Text Label 3350 4100 1    60   ~ 0
+/CART_WRITE
+Text Label 3450 4100 1    60   ~ 0
+CART_ALE_L
+Text Label 3750 4100 1    60   ~ 0
+/CART_READ
+Text Label 3850 4100 1    60   ~ 0
+CART_ALE_H
+Text Label 3950 4100 1    60   ~ 0
+CART_ADDR11
+Text Label 4050 4100 1    60   ~ 0
+CART_ADDR04
+Text Label 4150 4100 1    60   ~ 0
+CART_ADDR10
+Text Label 4250 4100 1    60   ~ 0
+CART_ADDR05
+Text Label 4750 4100 1    60   ~ 0
+CART_ADDR09
+Text Label 4850 4100 1    60   ~ 0
+CART_ADDR06
+Text Label 4950 4100 1    60   ~ 0
+CART_ADDR08
+Text Label 5050 4100 1    60   ~ 0
+CART_ADDR07
+Text Label 5350 4100 1    60   ~ 0
+/NMI
+Text Label 5550 4100 1    60   ~ 0
+PIF_CIC_DAT_IN
+Text Label 5650 4100 1    60   ~ 0
+PIF_CIC_DAT_OUT
+Text Label 5450 4100 1    60   ~ 0
+/COLDRESET
+Text Label 5750 4100 1    60   ~ 0
+CIC_CLK
+Text Label 5850 4100 1    60   ~ 0
+EEPROM_DAT
+Text Label 3850 2200 3    60   ~ 0
+EEPROM_DAT
+Text Label 3650 2200 3    60   ~ 0
+CIC_CLK
+Text Label 3550 2200 3    60   ~ 0
+PIF_CIC_DAT_OUT
+Text Label 6050 2200 3    60   ~ 0
+PIF_CIC_DAT_IN
+Text Label 3750 2200 3    60   ~ 0
+/COLDRESET
+Text Label 6250 2200 3    60   ~ 0
+/NMI
+Text Label 5850 2200 3    60   ~ 0
+CART_ADDR07
+Text Label 3350 2200 3    60   ~ 0
+CART_ADDR08
+Text Label 3250 2200 3    60   ~ 0
+CART_ADDR09
+Text Label 5450 2200 3    60   ~ 0
+CART_ADDR05
+Text Label 2950 2200 3    60   ~ 0
+CART_ADDR10
+Text Label 5350 2200 3    60   ~ 0
+CART_ADDR04
+Text Label 2850 2200 3    60   ~ 0
+CART_ADDR11
+Text Label 5250 2200 3    60   ~ 0
+CART_ALE_H
+Text Label 2750 2200 3    60   ~ 0
+/CART_READ
+Text Label 5050 2200 3    60   ~ 0
+CART_ALE_L
+Text Label 2550 2200 3    60   ~ 0
+/CART_WRITE
+Text Label 4950 2200 3    60   ~ 0
+CART_ADDR03
+Text Label 2450 2200 3    60   ~ 0
+CART_ADDR12
+Text Label 4750 2200 3    60   ~ 0
+CART_ADDR02
+Text Label 2250 2200 3    60   ~ 0
+CART_ADDR13
+Text Label 4650 2200 3    60   ~ 0
+CART_ADDR01
+Text Label 2150 2200 3    60   ~ 0
+CART_ADDR14
+Text Label 4550 2200 3    60   ~ 0
+CART_ADDR00
+Text Label 2050 2200 3    60   ~ 0
+CART_ADDR15
+Text Label 6150 2200 3    60   ~ 0
+JTCK
+Text Label 5750 2200 3    60   ~ 0
+CART_ADDR06
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 59ABEF84
+P 1400 1300
+F 0 "#FLG05" H 1400 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 1400 1450 50  0000 C CNN
+F 2 "" H 1400 1300 50  0001 C CNN
+F 3 "" H 1400 1300 50  0001 C CNN
+	1    1400 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 59ABEF9C
+P 1500 2500
+F 0 "#FLG06" H 1500 2575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1500 2650 50  0000 C CNN
+F 2 "" H 1500 2500 50  0001 C CNN
+F 3 "" H 1500 2500 50  0001 C CNN
+	1    1500 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 59ABF2F4
+P 1600 4500
+F 0 "C1" H 1610 4570 50  0000 L CNB
+F 1 "4.7uF" H 1610 4420 50  0000 L CNB
+F 2 "n64:C_1206" H 1600 4500 50  0001 C CNN
+F 3 "" H 1600 4500 50  0001 C CNN
+	1    1600 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59ABF32E
+P 1600 4800
+F 0 "#PWR?" H 1600 4550 50  0001 C CNN
+F 1 "GND" H 1600 4650 50  0000 C CNN
+F 2 "" H 1600 4800 50  0001 C CNN
+F 3 "" H 1600 4800 50  0001 C CNN
+	1    1600 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1900 1850 2000
+Wire Wire Line
+	1850 2000 6850 2000
+Wire Wire Line
+	6850 2000 6850 2100
+Wire Wire Line
+	6750 1900 6750 2000
+Connection ~ 6750 2000
+Wire Wire Line
+	6550 2000 6550 1900
+Connection ~ 6550 2000
+Wire Wire Line
+	6450 1900 6450 2000
+Connection ~ 6450 2000
+Wire Wire Line
+	4450 2000 4450 1900
+Connection ~ 4450 2000
+Wire Wire Line
+	4350 1900 4350 2000
+Connection ~ 4350 2000
+Wire Wire Line
+	4250 2000 4250 1900
+Connection ~ 4250 2000
+Wire Wire Line
+	4050 1900 4050 2000
+Connection ~ 4050 2000
+Wire Wire Line
+	3950 2000 3950 1900
+Connection ~ 3950 2000
+Wire Wire Line
+	2350 1900 2350 2000
+Connection ~ 2350 2000
+Wire Wire Line
+	1950 2000 1950 1900
+Connection ~ 1950 2000
+Wire Wire Line
+	2650 2100 2650 1900
+Wire Wire Line
+	1500 2100 5950 2100
+Wire Wire Line
+	1500 1250 1500 2100
+Wire Wire Line
+	3450 2100 3450 1900
+Connection ~ 2650 2100
+Wire Wire Line
+	5150 2100 5150 1900
+Connection ~ 3450 2100
+Wire Wire Line
+	5950 2100 5950 1900
+Connection ~ 5150 2100
+Wire Wire Line
+	1950 4400 1950 4300
+Wire Wire Line
+	1950 4300 6900 4300
+Wire Wire Line
+	6900 4300 6900 4400
+Wire Wire Line
+	6750 4400 6750 4300
+Connection ~ 6750 4300
+Wire Wire Line
+	6650 4300 6650 4400
+Connection ~ 6650 4300
+Wire Wire Line
+	6350 4400 6350 4300
+Connection ~ 6350 4300
+Wire Wire Line
+	6250 4300 6250 4400
+Connection ~ 6250 4300
+Wire Wire Line
+	6150 4400 6150 4300
+Connection ~ 6150 4300
+Wire Wire Line
+	6050 4300 6050 4400
+Connection ~ 6050 4300
+Wire Wire Line
+	4650 4400 4650 4300
+Connection ~ 4650 4300
+Wire Wire Line
+	4550 4300 4550 4400
+Connection ~ 4550 4300
+Wire Wire Line
+	3050 4400 3050 4300
+Connection ~ 3050 4300
+Wire Wire Line
+	2950 4300 2950 4400
+Connection ~ 2950 4300
+Wire Wire Line
+	2250 4400 2250 4300
+Connection ~ 2250 4300
+Wire Wire Line
+	2150 4300 2150 4400
+Connection ~ 2150 4300
+Wire Wire Line
+	2050 4400 2050 4300
+Connection ~ 2050 4300
+Wire Wire Line
+	1500 4100 1500 4200
+Wire Wire Line
+	1500 4200 5250 4200
+Wire Wire Line
+	3550 4200 3550 4400
+Wire Wire Line
+	3650 4200 3650 4400
+Connection ~ 3550 4200
+Wire Wire Line
+	4350 4200 4350 4400
+Connection ~ 3650 4200
+Wire Wire Line
+	4450 4200 4450 4400
+Connection ~ 4350 4200
+Wire Wire Line
+	5150 4200 5150 4400
+Connection ~ 4450 4200
+Wire Wire Line
+	5250 4200 5250 4400
+Connection ~ 5150 4200
+Wire Wire Line
+	2050 1900 2050 2200
+Wire Wire Line
+	2150 1900 2150 2200
+Wire Wire Line
+	2250 2200 2250 1900
+Wire Wire Line
+	2450 1900 2450 2200
+Wire Wire Line
+	2550 2200 2550 1900
+Wire Wire Line
+	2750 1900 2750 2200
+Wire Wire Line
+	2850 2200 2850 1900
+Wire Wire Line
+	2950 1900 2950 2200
+Wire Wire Line
+	3250 2200 3250 1900
+Wire Wire Line
+	3350 1900 3350 2200
+Wire Wire Line
+	3550 2200 3550 1900
+Wire Wire Line
+	3650 1900 3650 2200
+Wire Wire Line
+	3750 2200 3750 1900
+Wire Wire Line
+	3850 1900 3850 2200
+Wire Wire Line
+	4550 2200 4550 1900
+Wire Wire Line
+	4650 1900 4650 2200
+Wire Wire Line
+	4750 2200 4750 1900
+Wire Wire Line
+	4850 1900 4850 2000
+Connection ~ 4850 2000
+Wire Wire Line
+	4950 1900 4950 2200
+Wire Wire Line
+	5050 2200 5050 1900
+Wire Wire Line
+	5250 1900 5250 2200
+Wire Wire Line
+	5350 2200 5350 1900
+Wire Wire Line
+	5450 1900 5450 2200
+Wire Wire Line
+	5750 2200 5750 1900
+Wire Wire Line
+	5850 1900 5850 2200
+Wire Wire Line
+	6050 2200 6050 1900
+Wire Wire Line
+	6150 1900 6150 2200
+Wire Wire Line
+	6250 2200 6250 1900
+Wire Wire Line
+	5850 4400 5850 4100
+Wire Wire Line
+	5750 4100 5750 4400
+Wire Wire Line
+	5650 4400 5650 4100
+Wire Wire Line
+	5550 4100 5550 4400
+Wire Wire Line
+	5450 4400 5450 4100
+Wire Wire Line
+	5350 4100 5350 4400
+Wire Wire Line
+	5050 4400 5050 4100
+Wire Wire Line
+	4950 4100 4950 4400
+Wire Wire Line
+	4850 4400 4850 4100
+Wire Wire Line
+	4750 4100 4750 4400
+Wire Wire Line
+	4250 4400 4250 4100
+Wire Wire Line
+	4150 4100 4150 4400
+Wire Wire Line
+	4050 4400 4050 4100
+Wire Wire Line
+	3950 4100 3950 4400
+Wire Wire Line
+	3850 4400 3850 4100
+Wire Wire Line
+	3750 4100 3750 4400
+Wire Wire Line
+	3450 4400 3450 4100
+Wire Wire Line
+	3350 4100 3350 4400
+Wire Wire Line
+	3250 4400 3250 4100
+Wire Wire Line
+	3150 4100 3150 4400
+Wire Wire Line
+	2850 4400 2850 4100
+Wire Wire Line
+	2750 4100 2750 4400
+Wire Wire Line
+	2650 4400 2650 4100
+Wire Wire Line
+	2550 4100 2550 4400
+Wire Wire Line
+	2450 4400 2450 4100
+Wire Wire Line
+	2350 4100 2350 4400
+Wire Wire Line
+	1850 4400 1850 4100
+Wire Wire Line
+	1600 4600 1600 4800
+Wire Wire Line
+	1600 4200 1600 4400
+Connection ~ 1600 4200
+$Comp
+L C_Small C2
+U 1 1 59ABFBE5
+P 1600 2300
+F 0 "C2" H 1610 2370 50  0000 L CNB
+F 1 ".1uF" H 1610 2220 50  0000 L CNB
+F 2 "n64:C_0603" H 1600 2300 50  0001 C CNN
+F 3 "" H 1600 2300 50  0001 C CNN
+	1    1600 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2200 1600 2100
+Connection ~ 1600 2100
+$Comp
+L GND #PWR?
+U 1 1 59ABFDF9
+P 1600 2600
+F 0 "#PWR?" H 1600 2350 50  0001 C CNN
+F 1 "GND" H 1600 2450 50  0000 C CNN
+F 2 "" H 1600 2600 50  0001 C CNN
+F 3 "" H 1600 2600 50  0001 C CNN
+	1    1600 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2600 1600 2400
+Wire Wire Line
+	1400 1300 1500 1300
+Connection ~ 1500 1300
+Wire Wire Line
+	1500 2500 1600 2500
+Connection ~ 1600 2500
 $EndSCHEMATC
