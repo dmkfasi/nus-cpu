@@ -1,0 +1,10 @@
+(module ViaStitch (layer F.Cu) (tedit 59AD240D)
+  (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ViaStitch (at 0 -0.9) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (zone_connect 2))
+)
