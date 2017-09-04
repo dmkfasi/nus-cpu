@@ -27,7 +27,6 @@ Schematics is not verified so far, but it looks complete and legit and came from
         * 4 of RDRAM18;
         * 2 of RDRAM36.
     * and onboard MX8330 clock generator;
-		* ![RDRAM Board](https://github.com/dmkfasi/nus-cpu/blob/master/kicad/rcp-rdram/PCB-3d-preview-ortho.png)
 * RCP-CART defines Gamepak interface, simple board with flat cable connector;
 * RCP-SND defines audio output interface, either usage of B9480F or any other DAC and amplifier;
 * RCP-VDC will define video interface.
@@ -35,7 +34,9 @@ Schematics is not verified so far, but it looks complete and legit and came from
 # PCB design and production files
 * CPU-RCP is 4 layer board, work in proress;
 * RCP-RDRAM is 4 layer board, finished, Gerber files are included;
+![RDRAM Board](https://github.com/dmkfasi/nus-cpu/blob/master/kicad/rcp-rdram/PCB-3d-preview-ortho.png)
 * RCP-CART is 2 layer board, finished, Gerber files are included;
+![Gamepak Board](https://github.com/dmkfasi/nus-cpu/blob/master/kicad/rcp-cart/PCB-3d-preview-ortho.png?raw=true)
 * RCP-SND is not started yet;
 * RCP-VDC is not started yet;
 
