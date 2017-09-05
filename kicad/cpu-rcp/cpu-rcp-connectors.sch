@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title "External Peripherals Interconnections"
 Date "11/01/2017"
 Rev "4"
@@ -69,16 +69,16 @@ $EndComp
 $Comp
 L CART-FLAT-CABLE P?
 U 1 1 5879B3A5
-P 3450 1300
+P 3550 1300
 AR Path="/5879B3A5" Ref="P?"  Part="1" 
 AR Path="/58786075/5879B3A5" Ref="P5"  Part="1" 
 AR Path="/5890DD16/5879B3A5" Ref="P5"  Part="1" 
-F 0 "P5" H 6000 1650 50  0000 R CNB
-F 1 "502790-5091" H 1000 1650 50  0000 L CNB
-F 2 "n64:connector-molex-502790-5091" H 3480 1450 20  0001 C CNN
-F 3 "" H 3450 1300 60  0001 C CNN
-	1    3450 1300
-	1    0    0    -1  
+F 0 "P5" H 6100 1650 50  0000 R CNB
+F 1 "502790-5091" H 1100 1650 50  0000 L CNB
+F 2 "n64:connector-molex-502790-5091" H 3580 1450 20  0001 C CNN
+F 3 "" H 3550 1300 60  0001 C CNN
+	1    3550 1300
+	-1   0    0    -1  
 $EndComp
 Text Label 5150 2200 3    39   ~ 0
 VIDEO_SYNC
