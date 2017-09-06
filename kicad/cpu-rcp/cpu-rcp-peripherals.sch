@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 4
 Title "Peripherals components"
 Date "11/01/2017"
 Rev "4"
@@ -628,4 +628,52 @@ Wire Notes Line
 	5650 1300 4500 1300
 Wire Notes Line
 	4000 1300 4300 1300
+$Comp
+L R_Small R36
+U 1 1 59B059A3
+P 8300 1550
+F 0 "R36" V 8250 1550 50  0000 C BNB
+F 1 "51K" V 8400 1550 50  0000 C BNB
+F 2 "n64:R_0603" H 8300 1550 50  0001 C CNN
+F 3 "" H 8300 1550 50  0001 C CNN
+	1    8300 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C144
+U 1 1 59B059AA
+P 8500 1750
+F 0 "C144" H 8600 1750 50  0000 L CNB
+F 1 "~" H 8510 1670 50  0001 L CNN
+F 2 "n64:C_0603" H 8500 1750 50  0001 C CNN
+F 3 "" H 8500 1750 50  0001 C CNN
+	1    8500 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8100 1550 0    60   Output ~ 0
+ENABLE
+Wire Wire Line
+	8100 1550 8200 1550
+Wire Wire Line
+	8400 1550 8700 1550
+Wire Wire Line
+	8500 1550 8500 1650
+$Comp
+L GND #PWR?
+U 1 1 59B059B5
+P 8500 1950
+F 0 "#PWR?" H 8500 1950 30  0001 C CNN
+F 1 "GND" H 8500 1880 30  0001 C CNN
+F 2 "" H 8500 1950 60  0001 C CNN
+F 3 "" H 8500 1950 60  0001 C CNN
+	1    8500 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1850 8500 1950
+Connection ~ 8500 1550
+Text GLabel 8700 1550 2    60   Output ~ 0
+ENABLE_CLK
+Text Notes 7700 1200 0    60   Italic 0
+This is placed close to U7 on the original board.\nENABLE_CLK is going to both MX8330
 $EndSCHEMATC

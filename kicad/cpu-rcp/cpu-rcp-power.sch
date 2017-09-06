@@ -622,28 +622,6 @@ Text Notes 3850 4000 0    60   Italic 0
 U3 ensures proper ENABLE signal in case of main power voltage ripples.
 Text Notes 3850 5500 0    60   Italic 0
 VTERM consumption measured up to 60mA with NCP1117 adjusted with R26/R27 divider.\nVoltage drop down to 2.40V for VTERM and 1.80V for VREF does not affect demo mode of Mario Tennis 64.
-$Comp
-L R_Small R36
-U 1 1 59A55A00
-P 4900 6850
-F 0 "R36" V 4850 6850 50  0000 C BNB
-F 1 "51K" V 5000 6850 50  0000 C BNB
-F 2 "n64:R_0603" H 4900 6850 50  0001 C CNN
-F 3 "" H 4900 6850 50  0001 C CNN
-	1    4900 6850
-	0    1    1    0   
-$EndComp
-$Comp
-L C_Small C144
-U 1 1 59A55B70
-P 5100 7050
-F 0 "C144" H 5200 7050 50  0000 L CNB
-F 1 "~" H 5110 6970 50  0001 L CNN
-F 2 "n64:C_0603" H 5100 7050 50  0001 C CNN
-F 3 "" H 5100 7050 50  0001 C CNN
-	1    5100 7050
-	1    0    0    -1  
-$EndComp
 Connection ~ 900  2700
 Wire Wire Line
 	900  2700 900  2800
@@ -889,30 +867,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 4800 3000 4800
 Connection ~ 1600 4800
-Text GLabel 4700 6850 0    60   Output ~ 0
-ENABLE
-Wire Wire Line
-	4700 6850 4800 6850
-Wire Wire Line
-	5000 6850 5300 6850
-Wire Wire Line
-	5100 6850 5100 6950
-$Comp
-L GND #PWR036
-U 1 1 59A597AF
-P 5100 7250
-F 0 "#PWR036" H 5100 7250 30  0001 C CNN
-F 1 "GND" H 5100 7180 30  0001 C CNN
-F 2 "" H 5100 7250 60  0001 C CNN
-F 3 "" H 5100 7250 60  0001 C CNN
-	1    5100 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 7150 5100 7250
-Connection ~ 5100 6850
-Text GLabel 5300 6850 2    60   Output ~ 0
-ENABLE_CLK
 Wire Wire Line
 	2400 4400 2500 4400
 Wire Wire Line
