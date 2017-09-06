@@ -45,25 +45,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X06 DCIN1
+L CONN_01X04 DCIN1
 U 1 1 587729BF
-P 900 4950
-F 0 "DCIN1" H 900 4550 50  0000 C CNB
-F 1 "Power Input" V 1000 4950 50  0000 C CNB
-F 2 "n64:connector-molex-87833-0620" H 900 4950 50  0001 C CNN
-F 3 "" H 900 4950 50  0000 C CNN
-	1    900  4950
-	-1   0    0    1   
+P 900 4850
+F 0 "DCIN1" H 900 5200 50  0000 C CNB
+F 1 "Power Input" V 1000 4850 50  0000 C CNB
+F 2 "n64:Pin_Header_Straight_2x02_Pitch2.54mm" H 900 4850 50  0001 C CNN
+F 3 "" H 900 4850 50  0000 C CNN
+	1    900  4850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR024
 U 1 1 587729CC
-P 3400 4100
-F 0 "#PWR024" H 3400 3950 50  0001 C CNN
-F 1 "+3.3V" H 3400 4240 50  0000 C CNN
-F 2 "" H 3400 4100 50  0000 C CNN
-F 3 "" H 3400 4100 50  0000 C CNN
-	1    3400 4100
+P 3000 4100
+F 0 "#PWR024" H 3000 3950 50  0001 C CNN
+F 1 "+3.3V" H 3000 4240 50  0000 C CNN
+F 2 "" H 3000 4100 50  0000 C CNN
+F 3 "" H 3000 4100 50  0000 C CNN
+	1    3000 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -80,12 +80,12 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG026
 U 1 1 587729E9
-P 1200 5500
-F 0 "#FLG026" H 1200 5595 50  0001 C CNN
-F 1 "PWR_FLAG" H 1200 5650 39  0000 C CNN
-F 2 "" H 1200 5500 50  0000 C CNN
-F 3 "" H 1200 5500 50  0000 C CNN
-	1    1200 5500
+P 1200 5300
+F 0 "#FLG026" H 1200 5395 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 5450 39  0000 C CNN
+F 2 "" H 1200 5300 50  0000 C CNN
+F 3 "" H 1200 5300 50  0000 C CNN
+	1    1200 5300
 	1    0    0    1   
 $EndComp
 Text Notes 4950 700  0    60   ~ 12
@@ -213,19 +213,19 @@ F 3 "" H 1200 1350 50  0000 C CNN
 	1    1200 1350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3400 4800 2    60   Output ~ 0
+Text GLabel 3000 4800 2    60   Output ~ 0
 ENABLE
-Text GLabel 3400 5000 2    60   Output ~ 0
+Text GLabel 2300 6850 2    60   Output ~ 0
 VTERM
 $Comp
 L GND #PWR029
 U 1 1 58783935
-P 3400 5500
-F 0 "#PWR029" H 3400 5500 30  0001 C CNN
-F 1 "GND" H 3400 5430 30  0001 C CNN
-F 2 "" H 3400 5500 60  0001 C CNN
-F 3 "" H 3400 5500 60  0001 C CNN
-	1    3400 5500
+P 3000 5300
+F 0 "#PWR029" H 3000 5300 30  0001 C CNN
+F 1 "GND" H 3000 5230 30  0001 C CNN
+F 2 "" H 3000 5300 60  0001 C CNN
+F 3 "" H 3000 5300 60  0001 C CNN
+	1    3000 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -451,32 +451,32 @@ F 3 "" H 1200 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP_Small C142
+L CP_Small C81
 U 1 1 587C61CB
-P 1400 5200
-F 0 "C142" H 1200 5250 50  0000 C CNB
-F 1 "33uF" H 1200 5150 50  0000 C CNB
-F 2 "n64:C_1206" H 1400 5200 50  0001 C CNN
-F 3 "" H 1400 5200 50  0000 C CNN
-	1    1400 5200
-	-1   0    0    -1  
+P 1000 7050
+F 0 "C81" H 800 7100 50  0000 C CNB
+F 1 "68uF" H 800 7000 50  0000 C CNB
+F 2 "n64:C_1206" H 1000 7050 50  0001 C CNN
+F 3 "" H 1000 7050 50  0000 C CNN
+	1    1000 7050
+	1    0    0    -1  
 $EndComp
 $Comp
 L CP_Small C73
 U 1 1 587C8C27
-P 1800 5200
-F 0 "C73" H 1600 5250 50  0000 C CNB
-F 1 "68uF" H 1600 5150 50  0000 C CNB
-F 2 "n64:C_1206" H 1800 5200 50  0001 C CNN
-F 3 "" H 1800 5200 50  0000 C CNN
-	1    1800 5200
+P 2150 7050
+F 0 "C73" H 1950 7100 50  0000 C CNB
+F 1 "68uF" H 1950 7000 50  0000 C CNB
+F 2 "n64:C_1206" H 2150 7050 50  0001 C CNN
+F 3 "" H 2150 7050 50  0000 C CNN
+	1    2150 7050
 	-1   0    0    -1  
 $EndComp
 Text Notes 1150 3750 2    60   ~ 12
 DC inputs
-Text Notes 4200 4300 0    60   Italic 0
+Text Notes 3850 4200 0    60   Italic 0
 3V3 rail rated 2.7A at genuine power supply.
-Text Notes 4200 4500 0    60   Italic 0
+Text Notes 3850 4400 0    60   Italic 0
 VTERM LDO VReg output max is rated at 0.5A
 $Comp
 L GND #PWR034
@@ -550,33 +550,33 @@ F 3 "" H 5500 3200 60  0001 C CNN
 $EndComp
 Text GLabel 5500 2700 0    60   Input ~ 0
 VTERM
-Text Notes 4200 4700 0    60   Italic 0
+Text Notes 3850 4600 0    60   Italic 0
 ENABLE pull-up with R2 to 3V3 rail on the original schematic
 $Comp
 L R_Small R2
 U 1 1 58912A7D
-P 1800 4800
-F 0 "R2" V 1900 4800 50  0000 C BNB
-F 1 "2K" V 1750 4800 50  0000 C BNB
-F 2 "n64:R_0603" H 1800 4800 50  0001 C CNN
-F 3 "" H 1800 4800 50  0000 C CNN
-	1    1800 4800
+P 1400 4800
+F 0 "R2" V 1500 4800 50  0000 C BNB
+F 1 "2K" V 1350 4800 50  0000 C BNB
+F 2 "n64:R_0603" H 1400 4800 50  0001 C CNN
+F 3 "" H 1400 4800 50  0000 C CNN
+	1    1400 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L D_Small D2
 U 1 1 5892BC55
-P 2000 4400
-F 0 "D2" V 2000 4300 50  0000 C CNB
-F 1 "±" H 1850 4320 50  0001 C CNB
-F 2 "n64:D_0805" V 2000 4400 50  0001 C CNN
-F 3 "" V 2000 4400 50  0000 C CNN
-	1    2000 4400
+P 1600 4400
+F 0 "D2" V 1600 4300 50  0000 C CNB
+F 1 "±" H 1450 4320 50  0001 C CNB
+F 2 "n64:D_0805" V 1600 4400 50  0001 C CNN
+F 3 "" V 1600 4400 50  0000 C CNN
+	1    1600 4400
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1500 4200 0    60   Input ~ 0
 /COLDRESET
-Text Notes 4200 4900 0    60   Italic 0
+Text Notes 3850 4800 0    60   Italic 0
 /COLDRESET affects ENABLE
 $Comp
 L C_Small CU8
@@ -603,45 +603,45 @@ F 3 "" H 900 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5500 3250
-Text Notes 4200 5350 0    60   Italic 0
+Text Notes 3850 5250 0    60   Italic 0
 Approximate consumption measured on NUS-CPU-02 after warm reset of Mario Tennis 64 (J) during demo mode with single game controller connected:\n1080mA <-> 1530mA with two RDRAM18 chips plus Jumper Pak;\n1200mA <-> 1700mA with two RDRAM18 chips plus single chip genuine Memory Expansion Pak;\n1030mA <-> 1360mA without any RDRAM18 chips plus single chip genuine Memory Expansion Pak.
 $Comp
 L U3 U3
 U 1 1 599F281A
-P 2600 4300
+P 2200 4300
 AR Path="/599F281A" Ref="U3"  Part="1" 
 AR Path="/58771482/599F281A" Ref="U3"  Part="1" 
-F 0 "U3" V 2600 4300 50  0000 C CNB
-F 1 "U3" H 2600 4150 50  0001 C CNB
-F 2 "n64:u3-sot-23-5" H 2600 4300 20  0001 C CNN
-F 3 "" H 2600 4200 60  0001 C CNN
-	1    2600 4300
+F 0 "U3" V 2200 4300 50  0000 C CNB
+F 1 "U3" H 2200 4150 50  0001 C CNB
+F 2 "n64:u3-sot-23-5" H 2200 4300 20  0001 C CNN
+F 3 "" H 2200 4200 60  0001 C CNN
+	1    2200 4300
 	0    -1   -1   0   
 $EndComp
-Text Notes 4200 4100 0    60   Italic 0
+Text Notes 3850 4000 0    60   Italic 0
 U3 ensures proper ENABLE signal in case of main power voltage ripples.
-Text Notes 4200 5600 0    60   Italic 0
+Text Notes 3850 5500 0    60   Italic 0
 VTERM consumption measured up to 60mA with NCP1117 adjusted with R26/R27 divider.\nVoltage drop down to 2.40V for VTERM and 1.80V for VREF does not affect demo mode of Mario Tennis 64.
 $Comp
 L R_Small R36
 U 1 1 59A55A00
-P 2500 6600
-F 0 "R36" V 2450 6600 50  0000 C BNB
-F 1 "51K" V 2600 6600 50  0000 C BNB
-F 2 "n64:R_0603" H 2500 6600 50  0001 C CNN
-F 3 "" H 2500 6600 50  0001 C CNN
-	1    2500 6600
+P 4900 6850
+F 0 "R36" V 4850 6850 50  0000 C BNB
+F 1 "51K" V 5000 6850 50  0000 C BNB
+F 2 "n64:R_0603" H 4900 6850 50  0001 C CNN
+F 3 "" H 4900 6850 50  0001 C CNN
+	1    4900 6850
 	0    1    1    0   
 $EndComp
 $Comp
 L C_Small C144
 U 1 1 59A55B70
-P 2700 6800
-F 0 "C144" H 2800 6800 50  0000 L CNB
-F 1 "~" H 2710 6720 50  0001 L CNN
-F 2 "n64:C_0603" H 2700 6800 50  0001 C CNN
-F 3 "" H 2700 6800 50  0001 C CNN
-	1    2700 6800
+P 5100 7050
+F 0 "C144" H 5200 7050 50  0000 L CNB
+F 1 "~" H 5110 6970 50  0001 L CNN
+F 2 "n64:C_0603" H 5100 7050 50  0001 C CNN
+F 3 "" H 5100 7050 50  0001 C CNN
+	1    5100 7050
 	1    0    0    -1  
 $EndComp
 Connection ~ 900  2700
@@ -660,40 +660,132 @@ Wire Wire Line
 Connection ~ 1200 2700
 Wire Wire Line
 	1500 2700 1500 2800
-Connection ~ 1200 4800
 Wire Wire Line
-	1200 4900 1100 4900
-Wire Wire Line
-	2000 4500 2000 4800
+	1600 4500 1600 4800
 Connection ~ 1200 4600
-Connection ~ 1600 4600
 Wire Wire Line
-	1600 4600 1600 4800
+	1600 4200 1600 4300
 Wire Wire Line
-	1600 4800 1700 4800
-Connection ~ 1400 5400
+	1500 4200 1600 4200
 Wire Wire Line
-	1400 5300 1400 5400
-Connection ~ 1400 4600
+	5050 1550 5150 1550
 Wire Wire Line
-	1400 4600 1400 5100
+	5150 1550 5450 1550
 Wire Wire Line
-	2000 4200 2000 4300
+	5450 1550 5750 1550
 Wire Wire Line
-	1500 4200 2000 4200
+	5750 1550 6050 1550
 Wire Wire Line
-	5050 1550 9650 1550
+	6050 1550 6350 1550
 Wire Wire Line
-	5050 1150 9650 1150
+	6350 1550 6650 1550
 Wire Wire Line
-	800  1550 4200 1550
+	6650 1550 6950 1550
 Wire Wire Line
-	800  1150 4200 1150
+	6950 1550 7250 1550
+Wire Wire Line
+	7250 1550 7550 1550
+Wire Wire Line
+	7550 1550 7850 1550
+Wire Wire Line
+	7850 1550 8150 1550
+Wire Wire Line
+	8150 1550 8450 1550
+Wire Wire Line
+	8450 1550 8750 1550
+Wire Wire Line
+	8750 1550 9050 1550
+Wire Wire Line
+	9050 1550 9350 1550
+Wire Wire Line
+	9350 1550 9650 1550
+Wire Wire Line
+	5050 1150 5150 1150
+Wire Wire Line
+	5150 1150 5450 1150
+Wire Wire Line
+	5450 1150 5750 1150
+Wire Wire Line
+	5750 1150 6050 1150
+Wire Wire Line
+	6050 1150 6350 1150
+Wire Wire Line
+	6350 1150 6650 1150
+Wire Wire Line
+	6650 1150 6950 1150
+Wire Wire Line
+	6950 1150 7250 1150
+Wire Wire Line
+	7250 1150 7550 1150
+Wire Wire Line
+	7550 1150 7850 1150
+Wire Wire Line
+	7850 1150 8150 1150
+Wire Wire Line
+	8150 1150 8450 1150
+Wire Wire Line
+	8450 1150 8750 1150
+Wire Wire Line
+	8750 1150 9050 1150
+Wire Wire Line
+	9050 1150 9350 1150
+Wire Wire Line
+	9350 1150 9650 1150
+Wire Wire Line
+	800  1550 900  1550
+Wire Wire Line
+	900  1550 1200 1550
+Wire Wire Line
+	1200 1550 1500 1550
+Wire Wire Line
+	1500 1550 1800 1550
+Wire Wire Line
+	1800 1550 2100 1550
+Wire Wire Line
+	2100 1550 2400 1550
+Wire Wire Line
+	2400 1550 2700 1550
+Wire Wire Line
+	2700 1550 3000 1550
+Wire Wire Line
+	3000 1550 3300 1550
+Wire Wire Line
+	3300 1550 3600 1550
+Wire Wire Line
+	3600 1550 3900 1550
+Wire Wire Line
+	3900 1550 4200 1550
+Wire Wire Line
+	800  1150 900  1150
+Wire Wire Line
+	900  1150 1200 1150
+Wire Wire Line
+	1200 1150 1500 1150
+Wire Wire Line
+	1500 1150 1800 1150
+Wire Wire Line
+	1800 1150 2100 1150
+Wire Wire Line
+	2100 1150 2400 1150
+Wire Wire Line
+	2400 1150 2700 1150
+Wire Wire Line
+	2700 1150 3000 1150
+Wire Wire Line
+	3000 1150 3300 1150
+Wire Wire Line
+	3300 1150 3600 1150
+Wire Wire Line
+	3600 1150 3900 1150
+Wire Wire Line
+	3900 1150 4200 1150
 Connection ~ 5600 2700
 Wire Wire Line
 	5600 2700 5600 2800
 Wire Wire Line
-	5500 2700 5900 2700
+	5500 2700 5600 2700
+Wire Wire Line
+	5600 2700 5900 2700
 Wire Wire Line
 	5900 2700 5900 2800
 Connection ~ 5600 3100
@@ -702,13 +794,19 @@ Wire Wire Line
 Wire Wire Line
 	5500 3100 5500 3200
 Wire Wire Line
-	5500 3100 5900 3100
+	5500 3100 5600 3100
+Wire Wire Line
+	5600 3100 5900 3100
 Wire Wire Line
 	5900 3100 5900 3000
 Wire Wire Line
-	3100 3100 3500 3100
+	3100 3100 3200 3100
 Wire Wire Line
-	3100 2700 3500 2700
+	3200 3100 3500 3100
+Wire Wire Line
+	3100 2700 3200 2700
+Wire Wire Line
+	3200 2700 3500 2700
 Wire Wire Line
 	3100 3100 3100 3200
 Wire Wire Line
@@ -719,35 +817,33 @@ Wire Wire Line
 Connection ~ 3200 3100
 Wire Notes Line
 	700  5900 11000 5900
-Connection ~ 1200 5400
 Connection ~ 1200 5200
+Connection ~ 1200 5000
 Wire Wire Line
-	1100 5100 1200 5100
+	1100 4900 1200 4900
 Wire Wire Line
-	1200 5400 3400 5400
+	1200 5200 1900 5200
 Wire Wire Line
-	1200 5100 1200 5500
+	1900 5200 2750 5200
 Wire Wire Line
-	1100 5200 1200 5200
+	2750 5200 3000 5200
 Wire Wire Line
-	1200 4800 1100 4800
+	1200 4900 1200 5000
+Wire Wire Line
+	1200 5000 1200 5200
+Wire Wire Line
+	1200 5200 1200 5300
+Wire Wire Line
+	1100 5000 1200 5000
 Connection ~ 1200 4700
 Wire Wire Line
-	1200 4500 1200 4900
-Connection ~ 1800 5400
+	3000 5200 3000 5300
 Wire Wire Line
-	3400 5400 3400 5500
+	3000 4600 3000 4200
 Wire Wire Line
-	3400 4600 3400 4100
-Wire Wire Line
-	1200 4600 3400 4600
+	3000 4200 3000 4100
 Wire Wire Line
 	1200 4700 1100 4700
-Connection ~ 1800 5000
-Wire Wire Line
-	1800 5100 1800 5000
-Wire Wire Line
-	1800 5400 1800 5300
 Wire Notes Line
 	700  3500 11000 3500
 Wire Notes Line
@@ -757,9 +853,17 @@ Wire Wire Line
 Wire Wire Line
 	1200 2700 1200 2800
 Wire Wire Line
-	800  3100 1500 3100
+	800  3100 900  3100
 Wire Wire Line
-	800  2700 1500 2700
+	900  3100 1200 3100
+Wire Wire Line
+	1200 3100 1500 3100
+Wire Wire Line
+	800  2700 900  2700
+Wire Wire Line
+	900  2700 1200 2700
+Wire Wire Line
+	1200 2700 1500 2700
 Wire Wire Line
 	800  3100 800  3200
 Wire Wire Line
@@ -913,70 +1017,78 @@ Connection ~ 3000 1550
 Wire Wire Line
 	3300 1550 3300 1450
 Wire Wire Line
-	1100 5000 3400 5000
+	1500 4800 1600 4800
 Wire Wire Line
-	1900 4800 3400 4800
-Connection ~ 2000 4800
-Text GLabel 2300 6600 0    60   Output ~ 0
+	1600 4800 2500 4800
+Wire Wire Line
+	2500 4800 3000 4800
+Connection ~ 1600 4800
+Text GLabel 4700 6850 0    60   Output ~ 0
 ENABLE
 Wire Wire Line
-	2300 6600 2400 6600
+	4700 6850 4800 6850
 Wire Wire Line
-	2600 6600 2900 6600
+	5000 6850 5100 6850
 Wire Wire Line
-	2700 6600 2700 6700
+	5100 6850 5300 6850
+Wire Wire Line
+	5100 6850 5100 6950
 $Comp
 L GND #PWR036
 U 1 1 59A597AF
-P 2700 7000
-F 0 "#PWR036" H 2700 7000 30  0001 C CNN
-F 1 "GND" H 2700 6930 30  0001 C CNN
-F 2 "" H 2700 7000 60  0001 C CNN
-F 3 "" H 2700 7000 60  0001 C CNN
-	1    2700 7000
+P 5100 7250
+F 0 "#PWR036" H 5100 7250 30  0001 C CNN
+F 1 "GND" H 5100 7180 30  0001 C CNN
+F 2 "" H 5100 7250 60  0001 C CNN
+F 3 "" H 5100 7250 60  0001 C CNN
+	1    5100 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 6900 2700 7000
-Connection ~ 2700 6600
-Text GLabel 2900 6600 2    60   Output ~ 0
+	5100 7150 5100 7250
+Connection ~ 5100 6850
+Text GLabel 5300 6850 2    60   Output ~ 0
 ENABLE_CLK
 Wire Wire Line
-	2800 4400 2900 4400
+	2400 4400 2500 4400
 Wire Wire Line
-	2900 4400 2900 4800
-Connection ~ 2900 4800
+	2500 4400 2500 4800
+Connection ~ 2500 4800
 Wire Wire Line
-	2300 4400 2400 4400
+	1900 4400 2000 4400
 Wire Wire Line
-	2300 4200 2300 5400
-Connection ~ 2300 5400
+	1900 4200 1900 4300
 Wire Wire Line
-	2400 4300 2300 4300
-Connection ~ 2300 4400
+	1900 4300 1900 4400
 Wire Wire Line
-	2400 4200 2300 4200
-Connection ~ 2300 4300
+	1900 4400 1900 5200
+Connection ~ 1900 5200
 Wire Wire Line
-	2800 4200 3400 4200
-Connection ~ 3400 4200
+	2000 4300 1900 4300
+Connection ~ 1900 4400
+Wire Wire Line
+	2000 4200 1900 4200
+Connection ~ 1900 4300
+Wire Wire Line
+	2400 4200 3000 4200
+Connection ~ 3000 4200
 $Comp
 L CP_Small C134
 U 1 1 59A7201A
-P 3150 5200
-F 0 "C134" H 2950 5250 50  0000 C CNB
-F 1 "68uF" H 2950 5150 50  0000 C CNB
-F 2 "n64:C_1206" H 3150 5200 50  0001 C CNN
-F 3 "" H 3150 5200 50  0000 C CNN
-	1    3150 5200
+P 2750 5000
+F 0 "C134" H 2550 5050 50  0000 C CNB
+F 1 "68uF" H 2550 4950 50  0000 C CNB
+F 2 "n64:C_1206" H 2750 5000 50  0001 C CNN
+F 3 "" H 2750 5000 50  0000 C CNN
+	1    2750 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 5300 3150 5400
-Connection ~ 3150 5400
+	2750 5100 2750 5200
+Connection ~ 2750 5200
 Wire Wire Line
-	3150 5100 3150 4600
-Connection ~ 3150 4600
+	2750 4600 2750 4900
+Connection ~ 2750 4600
 $Comp
 L C_Small CR16
 U 1 1 59ADA6B2
@@ -1045,4 +1157,133 @@ Connection ~ 3600 1150
 Wire Wire Line
 	3900 1150 3900 1250
 Connection ~ 3900 1150
+$Comp
+L PQ7VZ5 U12
+U 1 1 59B0293C
+P 1400 6300
+F 0 "U12" H 1400 6600 60  0000 C CNB
+F 1 "PQ7VZ5" H 1400 6500 60  0000 C CNB
+F 2 "n64:TO-263-5Lead" H 1400 6300 60  0001 C CNN
+F 3 "" H 1400 6300 60  0001 C CNN
+	1    1400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R26
+U 1 1 59B02BDE
+P 1400 7050
+F 0 "R26" H 1600 7100 50  0000 R CNB
+F 1 "316" H 1600 7000 50  0000 R CNB
+F 2 "n64:R_0805" H 1400 7050 50  0001 C CNN
+F 3 "" H 1400 7050 50  0001 C CNN
+	1    1400 7050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R_Small R27
+U 1 1 59B02C7B
+P 1800 7250
+F 0 "R27" V 1850 7250 50  0000 C TNB
+F 1 "301" V 1750 7250 50  0000 C BNB
+F 2 "n64:R_0805" H 1800 7250 50  0001 C CNN
+F 3 "" H 1800 7250 50  0001 C CNN
+	1    1800 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 4500 1200 4600
+Wire Wire Line
+	1200 4600 1200 4700
+Wire Wire Line
+	1200 4700 1200 4800
+Wire Wire Line
+	1100 4800 1200 4800
+Wire Wire Line
+	1200 4800 1300 4800
+Wire Wire Line
+	1400 6750 1400 6850
+Wire Wire Line
+	1400 6850 1400 6950
+Wire Wire Line
+	1400 6850 2150 6850
+Wire Wire Line
+	2150 6850 2300 6850
+Connection ~ 1400 6850
+Wire Wire Line
+	2150 6850 2150 6950
+Connection ~ 2150 6850
+$Comp
+L GND #PWR?
+U 1 1 59B05D17
+P 1600 7550
+F 0 "#PWR?" H 1600 7550 30  0001 C CNN
+F 1 "GND" H 1600 7480 30  0001 C CNN
+F 2 "" H 1600 7550 60  0001 C CNN
+F 3 "" H 1600 7550 60  0001 C CNN
+	1    1600 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 7150 1400 7250
+Wire Wire Line
+	1400 7250 1500 7250
+Wire Wire Line
+	1500 7250 1700 7250
+Wire Wire Line
+	1500 7250 1500 6750
+Connection ~ 1500 7250
+Wire Wire Line
+	1600 6750 1600 7450
+Wire Wire Line
+	1600 7450 1600 7550
+Wire Wire Line
+	1900 7250 2150 7250
+Wire Wire Line
+	2150 7450 2150 7250
+Wire Wire Line
+	2150 7250 2150 7150
+Wire Wire Line
+	1000 7450 1600 7450
+Wire Wire Line
+	1600 7450 2150 7450
+Connection ~ 1600 7450
+Connection ~ 2150 7250
+$Comp
+L +3.3V #PWR?
+U 1 1 59B07BFC
+P 900 6200
+F 0 "#PWR?" H 900 6050 50  0001 C CNN
+F 1 "+3.3V" H 900 6340 50  0000 C CNN
+F 2 "" H 900 6200 50  0000 C CNN
+F 3 "" H 900 6200 50  0000 C CNN
+	1    900  6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6850 1200 6750
+Wire Wire Line
+	900  6850 1000 6850
+Wire Wire Line
+	1000 6850 1200 6850
+Wire Wire Line
+	1200 6850 1300 6850
+Wire Wire Line
+	900  6850 900  6200
+Wire Wire Line
+	1300 6850 1300 6750
+Connection ~ 1200 6850
+Text Notes 1950 6150 0    60   Italic 0
+VTERM should be around 2.4V~~2.56V
+Wire Wire Line
+	1000 6950 1000 6850
+Connection ~ 1000 6850
+Wire Wire Line
+	1000 7150 1000 7450
+Wire Wire Line
+	1200 4600 2750 4600
+Wire Wire Line
+	2750 4600 3000 4600
+Connection ~ 1200 4800
+Text Notes 1400 3850 0    60   Italic 0
+Input pin 1+2 = GND\nInput pin 3+4 = 3V3
 $EndSCHEMATC
