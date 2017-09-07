@@ -646,9 +646,9 @@ Wire Wire Line
 Wire Wire Line
 	1500 4200 1600 4200
 Wire Wire Line
-	5050 1550 9650 1550
+	5050 1550 9950 1550
 Wire Wire Line
-	5050 1150 9650 1150
+	5050 1150 9950 1150
 Wire Wire Line
 	800  1550 4200 1550
 Wire Wire Line
@@ -1093,4 +1093,21 @@ Connection ~ 2150 7450
 Wire Wire Line
 	2600 6950 2600 6850
 Connection ~ 2600 6850
+$Comp
+L C_Small CR17
+U 1 1 59B1809B
+P 9950 1350
+F 0 "CR17" H 10050 1450 50  0000 C CNB
+F 1 ".1uF" H 10100 1250 50  0000 C CNB
+F 2 "n64:C_0603" H 9950 1350 50  0001 C CNN
+F 3 "" H 9950 1350 50  0000 C CNN
+	1    9950 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1150 9950 1250
+Connection ~ 9650 1150
+Wire Wire Line
+	9950 1550 9950 1450
+Connection ~ 9650 1550
 $EndSCHEMATC
