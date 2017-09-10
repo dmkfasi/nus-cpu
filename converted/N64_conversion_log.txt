@@ -1,9 +1,0 @@
-#********** START OF eagle6xx-sch-to-kicad-sch.ulp 1.7 09-02-2016 :00:36:05 LOG **********#
-    Conversion completed with no Messages
-#********** END OF eagle6xx-sch-to-kicad-sch.ulp 1.7 09-02-2016 :00:36:05 LOG **********#
-
-#********** START OF exp-lbrs.ulp 6.6 09-02-2016 :00:37:59 LOG **********#
-OK: Eagle lib export from SCH/PCB OK
-    Conversion completed with no Messages
-#********** END OF exp-lbrs.ulp 6.6 09-02-2016 :00:37:59 LOG **********#
-
