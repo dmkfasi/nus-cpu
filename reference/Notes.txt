@@ -1,0 +1,5 @@
+4:3 5 inch LCD by Innolux ZJ050NA-08C, 50 pin parallel RGB
+
+Pullup resistors on all four port game controllers to boot
+
+
